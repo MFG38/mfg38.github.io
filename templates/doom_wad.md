@@ -1,4 +1,4 @@
-[insert images here]
+[insert image here]
 
 ## title (filename.wad)
 
@@ -10,7 +10,7 @@
 | **Game mode(s)**   | ...  |
 | **Map(s)**         | ...  |
 
-[insert download links here]
+**DOWNLOAD >>>** [![](https://raw.githubusercontent.com/MFG38/mfg38.github.io/main/images/buttons/dropbox.png)]() [![](https://raw.githubusercontent.com/MFG38/mfg38.github.io/main/images/buttons/google_drive.png)]()
 
 [insert description here]
 
