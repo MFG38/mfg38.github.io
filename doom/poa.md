@@ -12,7 +12,7 @@
 | **Game mode(s)**   | Single-player, Coop                |
 | **Map(s)**         | MAP01-33                           |
 
-**DOWNLOAD |** [![](https://raw.githubusercontent.com/MFG38/mfg38.github.io/main/images/buttons/dropbox.png)](https://www.dropbox.com/s/vqytlog2jbg0v8u/pray666.zip?dl=0) [![](https://raw.githubusercontent.com/MFG38/mfg38.github.io/main/images/buttons/google_drive.png)](https://drive.google.com/file/d/1wIfN3WC5uyNnk9Go18Q0ylYkWK3XJQck/view?usp=sharing)
+**DOWNLOAD >** [![](https://raw.githubusercontent.com/MFG38/mfg38.github.io/main/images/buttons/dropbox.png)](https://www.dropbox.com/s/vqytlog2jbg0v8u/pray666.zip?dl=0) [![](https://raw.githubusercontent.com/MFG38/mfg38.github.io/main/images/buttons/google_drive.png)](https://drive.google.com/file/d/1wIfN3WC5uyNnk9Go18Q0ylYkWK3XJQck/view?usp=sharing)
 
 **Prayers of Armageddon** was the first serious wad project I ever worked on. For better or worse, I made the mistake of making it a full 32-level megawad (with an extra 33rd map).
 
