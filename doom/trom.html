@@ -6,10 +6,14 @@
 		<meta name="author" content="Santtu Pesonen">
 		<meta name="keywords" content="Doom, WADs, The Root of Madness">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
 	</head>
 	
 	<body>
-		<object data="/objects/navbar.html" width="768" height="88"></object>
+		<div id="navbarPlaceholder"></div>
+		<script>
+			$(function(){$("#navbarPlaceholder").load("objects/navbar.html");});
+		</script>
 		
 		<p class="previewImage">
 			<img src="https://raw.githubusercontent.com/MFG38/mfg38.github.io/main/images/doom_wads/trom/trom.png" alt="" width="768" height="432">
