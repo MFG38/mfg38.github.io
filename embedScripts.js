@@ -1,5 +1,5 @@
 function EmbedNavbar () {
-	document.getElementById('#navbarPlaceholder').innerHTML =
+	document.getElementById('navbarPlaceholder').innerHTML =
 		'<nav class="navbar">' +
 		'	<a href="index.html">Home</a>' +
 		'	<a href="doom_wad_index.html">Doom WADs</a>' +
