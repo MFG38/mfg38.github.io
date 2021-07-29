@@ -6,13 +6,13 @@
 		<meta name="author" content="Santtu Pesonen">
 		<meta name="keywords" content="MFG38, Doom, WADs, Mods, Games, Mapping, Level Design, Modding, Portfolio">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
 	</head>
 	
 	<body>
 		<div id="navbarPlaceholder"></div>
 		<script>
-			document.addEventListener("DOMContentLoaded", () => 
-				{document.getElementById("navbarPlaceholder").load("objects/navbar.html");});
+			$(function(){$("#navbarPlaceholder").load("../objects/navbar.html");});
 		</script>
 		
 		<p>Stuff is in the works. Watch this space.</p>
