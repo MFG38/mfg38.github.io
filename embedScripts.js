@@ -7,3 +7,8 @@ function EmbedNavbar () {
 		'	<a href="../tutorial_index.html">Tutorials</a>' +
 		'</nav>';
 }
+
+function EmbedFooter () {
+	document.getElementById('footerPlaceholder').innerHTML =
+		'<footer>"&copy; Santtu Pesonen, 2021"</footer>;
+}
