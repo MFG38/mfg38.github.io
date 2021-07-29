@@ -6,14 +6,15 @@
 		<meta name="author" content="Santtu Pesonen">
 		<meta name="keywords" content="">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
 	</head>
 	
 	<body>
-		<div id="navbarPlaceholder"></div>
-		<script>
-			$(function(){$("#navbarPlaceholder").load("../objects/navbar.html");});
-		</script>
+		<div id="navbarPlaceholder">
+			<script type="text/javascript" src="embedScripts.js"></script>
+			<script type="text/javascript">
+				EmbedNavbar();
+			</script>
+		</div>
 		
 		<div class="backToIndex">
 			<a href="../doom_wad_index.html">Back to Doom WAD index</a>
