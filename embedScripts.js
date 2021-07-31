@@ -10,5 +10,7 @@ function EmbedNavbar () {
 
 function EmbedFooter () {
 	document.getElementById('footerPlaceholder').innerHTML =
-		'<footer><p>"&copy; Santtu Pesonen, 2021"</p></footer>';
+		'<footer>' +
+		'	<p>&copy; 2021 Santtu Pesonen</p>' +
+		'</footer>';
 }
