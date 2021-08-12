@@ -81,7 +81,7 @@ footer
 	margin-bottom: 32px;
 }
 
-img
+.previewImage img
 {
 	display: block;
 	margin-left: auto;
@@ -115,6 +115,13 @@ img
 {
 	margin-top: 32px;
 	margin-bottom: 32px;
+}
+
+.downloadLinks p
+{
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .backToIndex
