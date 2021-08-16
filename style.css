@@ -33,6 +33,18 @@ h2.wadTitle
 	margin-bottom: 10px;
 }
 
+h2.gameTitle
+{
+	color: #FFFFF7;
+	font-family: monospace;
+	font-size: 22px;
+	width: 40%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
 h3
 {
 	color: #FFFFF7;
@@ -92,6 +104,16 @@ table.indexedList
 }
 
 table.wadInfo
+{
+	table-layout: fixed;
+	color: #FFFFF7;
+	font-family: sans-serif;
+	font-size: 14px;
+	width: 40%;
+	margin: auto;
+}
+
+table.gameInfo
 {
 	table-layout: fixed;
 	color: #FFFFF7;
