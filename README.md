@@ -1,5 +1,3 @@
 # mfg38.github.io
 
-To become a website for showcasing my DOOM mapping and game making work. Maybe also what I've done on the programming side.
-
-Watch this space.
+Personal website for showcasing my Doom mapping and gamedev work. Maybe also my programming work somewhere down the line.
