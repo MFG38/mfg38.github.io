@@ -32,19 +32,19 @@
 			So how do you go about setting up an MBF sky transfer? To demonstrate the feature, I quickly created this somewhat basic and ugly room in UDB. Notice that it has a square in the
 			middle with the F_SKY1 flat in the ceiling:<br>
 			<br>
-			<img class="centeredImage" src="../images/tutorials/mbf-sky-transfer/mbfsky_udb1.jpg" width="768" height="416"><br><br>
+			<img class="centeredImage" src="../images/tutorials/mbf-sky-transfer/mbfsky_udb1.jpg" width="960" height="520"><br><br>
 			How the MBF sky transfer works in its essence is that it transfers the <strong>upper texture</strong> of a line with <strong>line action 271</strong> on it to all sectors with the
 			F_SKY1 flat and the target sector tag, displaying it as a sky texture in the specified sectors. A target tag of 0 will transfer the texture to all untagged sectors with the F_SKY1
 			flat. While you could technically use any line in your map to act as the "acting" line for the effect, best mapping practices dictate that you draw a dummy sector outside the main
 			map for setting it up. In my example, the small triangle to the right of the square room will act as said dummy sector:<br>
 			<br>
-			<img class="centeredImage" src="../images/tutorials/mbf-sky-transfer/mbfsky_udb2.jpg" width="768" height="416"><br><br>
+			<img class="centeredImage" src="../images/tutorials/mbf-sky-transfer/mbfsky_udb2.jpg" width="960" height="520"><br><br>
 			Then, on any line in your dummy sector, change its <strong>upper texture</strong> to the texture you wish to use as the sky, give it the <strong>line action 271</strong> and set the
 			target tag to the tag of the sector where you want the sky transfer to occur. Once again, a target tag of 0 can be used to transfer the sky to all untagged sectors with the F_SKY1
 			flat in the map. Note that you'll have to repeat this approach for every unique sector tag you want to have the new sky; a target tag of 0 will transfer the sky to untagged sectors
 			ONLY.<br>
 			<br>
-			<img class="centeredImage" src="../images/tutorials/mbf-sky-transfer/mbfsky_udb3.jpg" width="768" height="416"><br><br>
+			<img class="centeredImage" src="../images/tutorials/mbf-sky-transfer/mbfsky_udb3.jpg" width="960" height="520"><br><br>
 			And, if you did everything correctly, upon launcing your map, your new sky will show up in-game!<br><br>
 			<img class="centeredImage" src="../images/tutorials/mbf-sky-transfer/mbfsky_game1.png"><br><br>
 			Now you don't have to strictly use a sky texture with the MBF sky transfer - any texture of your choice will do. If you wanted to, you could give your map a FIREBLU sky, as shown
@@ -56,7 +56,7 @@
 			sky in the map. Obviously, the target tag for each unique sky also needs to be different, as does the tag of each affected sector you want to have a unique sky in. Here, I simply
 			expanded the room slightly, gave it another sky sector with a tag of 1 and changed the target tag of the acting line to 1. In-game, the map then shows the default sky in the untagged
 			sector and the ZZZFACE4 sky in the sector with tag 1:<br><br>
-			<img class="centeredImage" src="../images/tutorials/mbf-sky-transfer/mbfsky_udb4.jpg" width="768" height="416"><br><br>
+			<img class="centeredImage" src="../images/tutorials/mbf-sky-transfer/mbfsky_udb4.jpg" width="960" height="520"><br><br>
 			<img class="centeredImage" src="../images/tutorials/mbf-sky-transfer/mbfsky_game4.png"><br><br>
 			That concludes this tutorial on the MBF sky transfer.
 		</p>
