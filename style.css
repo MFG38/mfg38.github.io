@@ -119,6 +119,31 @@ table.indexedList
 	background-color: #17253B;
 }
 
+th.colYear
+{
+	width: 8%;
+}
+
+th.colTitle
+{
+	width: 60%;
+}
+
+th.colIwad
+{
+	width: 16%;
+}
+
+th.colMaps
+{
+	width: 16%;
+}
+
+th.colGenre
+{
+	width: 32%;
+}
+
 table.wadInfo
 {
 	table-layout: fixed;
