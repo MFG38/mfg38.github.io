@@ -5,7 +5,7 @@
 		<title>The joy of Wait()ing - MFG38's Fun Hub</title>
 		<meta charset="UTF-8">
 		<meta name="author" content="Santtu Pesonen">
-		<meta name="keywords" content="Doom, Mapping, Tutorial, ACS, TagWait, ScriptWait">
+		<meta name="keywords" content="Doom, Mapping, Tutorial, ACS, TagWait">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="stylesheet" href="../style.css">
 	</head>
@@ -24,7 +24,94 @@
 		
 		<h2 class="tutorialTitle">The joy of Wait()ing</h2>
 		
-		<p class="mainText"></p>
+		<p class="mainText">
+			In this tutorial, I'll talk about the <strong>waiting functions available in ACS</strong>.<br>
+			<br>
+			Some of the less frequently used (as far as I can tell) and more underrated ACS functions, the usefulness of the
+			waiting functions is not to be understated. If your ACS script involves a lot of moving sectors and <strong>Delay</strong>
+			calls, you've probably spent a good amount of time manually calculating the tics needed for each instance of Delay and
+			bashing your head against the wall with getting everything at least adequately synced up. Using a waiting function can
+			significantly cut down on the need for manually calculating Delay durations.<br>
+			<br>
+			As an example, the <strong>TagWait</strong> function, when called in a script after triggering a moving sector action, will
+			tell the script that it should wait for the sector to finish its movement before executing any function calls that follow.
+			The function takes a single argument, that being the tag of the sector to wait for.<br>
+			<br>
+			A very simple but effective use case of the <strong>TagWait</strong> function is to insert it at the end of a script that
+			triggers multiple moving sectors, such as lifts. Doing so will ensure that the script can't be reactivated until all of the
+			moving sectors finish their moving actions, if the action in question is repeatable. I personally used the TagWait function
+			to great effect in Gomorrah, as well as for a lift in MAP05 of A Piece of Hell. The switch that activates the lift in question
+			is in front of the lift, effectively blocking it, and goes down with the lift. Another switch at the top of the lift lowers it
+			again. By inserting TagWait functions for each sector tag after the Plat_DownByValue calls, I ensured that the lift couldn't
+			be activated multiple times while it's still moving:<br>
+			<br>
+		</p>
+		
+		<p class="codeBlock">
+			<code>script 3 (void)
+// Elevator to second floor
+{
+    Plat_DownByValue(5,32,70,25);
+    Plat_DownByValue(8,32,70,25);
+    Plat_DownByValue(6,32,140,12);
+    TagWait(5);
+    TagWait(6);
+    TagWait(8);
+}
+			</code>
+		</p>
+		
+		<p class="mainText">
+			<br>
+			A similar use case can be found in Deliverance 2600, where I used TagWait to prevent the 3D floor bridge in the opening area from
+			being "reversible" while it's moving:<br>
+			<br>
+		</p>
+		
+		<p class="codeBlock">
+			<code>script 2 (void)
+//Platform and bridges lower
+{
+    if(getsectorceilingz(10,0,0) != 0)
+    {
+        delay(1);
+    }
+    else
+    {
+        floorandceiling_lowerbyvalue(10,8,128);
+        floor_lowerbyvalue(11,8,128);
+        tagwait(10);
+        tagwait(11);
+    }
+}
+
+script 3 (void)
+//Platform and bridges raise
+{
+    if(getsectorceilingz(10,0,0) == 0)
+    {
+        delay(1);
+    }
+    else
+    {
+        floorandceiling_raisebyvalue(10,8,128);
+        floor_raisebyvalue(11,8,128);
+        tagwait(10);
+        tagwait(11);
+    }
+}
+			</code>
+		</p>
+		
+		<p class="mainText">
+			<br>
+			Similarly to TagWait, the <strong>ScriptWait</strong>, <strong>NamedScriptWait</strong> and <strong>PolyWait</strong> functions
+			can be used to wait for numbered scripts, named scripts and polyobjects respectively. The ScriptWait function, for instance, will
+			wait for the specified numbered script to stop running before executing following function calls. NamedScriptWait holds the same
+			purpose for named scripts, and PolyWait will wait for a polyobject to finish its movement before executing further function calls.<br>
+			<br>
+			That concludes this tutorial on the ACS waiting functions.
+		</p>
 		
 		<div id="footerPlaceholder">
 			<script type="text/javascript" src="../embedScripts.js"></script>

@@ -179,6 +179,15 @@ footer
 	margin-bottom: 32px;
 }
 
+code
+{
+	color: #FFFFF7;
+	font-family: monospace;
+	font-size: 16px;
+	white-space: pre;
+	display: block;
+}
+
 .previewImage img
 {
 	display: block;
@@ -196,6 +205,15 @@ img.centeredImage
 .mainText
 {
 	text-align: justify;
+}
+
+.codeBlock
+{
+	width: 50%;
+	background-color: #011729;
+	padding: 12px;
+	border: 1px hidden;
+	border-radius: 8px;
 }
 
 .navbar
