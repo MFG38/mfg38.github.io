@@ -12,6 +12,15 @@ p
 	margin: auto;
 }
 
+noscript
+{
+	color: #FFFFF7;
+	font-family: sans-serif;
+	font-size: 12px;
+	width: 50%;
+	margin: auto;
+}
+
 h2
 {
 	color: #FFFFF7;
