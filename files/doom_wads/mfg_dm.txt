@@ -1,0 +1,57 @@
+===========================================================================
+Advanced engine needed  : None
+Primary purpose         : Deathmatch
+===========================================================================
+Title                   : MFG38's Deathmatch Map Pack
+Filename                : mfg_dm.wad
+Author                  : Santtu "MFG38" Pesonen
+Email Address           : mfg38thelps@aol.com
+
+Description             : A couple of small deathmatch maps I put together
+                          over the course of two days. Only two maps now, but
+                          chances are I'll make more eventually.
+
+Additional Credits to   : DOOM and id Software.
+===========================================================================
+* What is included *
+
+New levels              : 2
+Sounds                  : No
+Music                   : Yes
+Graphics                : No
+Dehacked/BEX Patch      : No
+Demos                   : No
+Other                   : No
+Other files required    : None
+
+
+* Play Information *
+
+Game                    : Doom 2
+Map #                   : MAP01-02
+Single Player           : Player starts only
+Cooperative 2-4 Player  : No
+Deathmatch 2-4 Player   : Designed for
+Other game styles       : None
+Difficulty Settings     : Not implemented
+
+
+* Construction *
+
+Base                    : New from scratch
+Build Time              : Two days
+Editor(s) used          : Doom Builder 2
+Known Bugs              : None that I noticed.
+May Not Run With        : The levels were tested in Chocolate Doom as they
+                          were constructed, so they should run in basically
+                          any port.
+Tested With             : Chocolate Doom, Zandronum
+
+
+* Copyright / Permissions *
+
+Authors may NOT use the contents of this file as a base for modification or
+reuse.  Permissions have been obtained from original authors for any of their
+resources modified or included in this file.
+
+You may NOT distribute this file in any format.

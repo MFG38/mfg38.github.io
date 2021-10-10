@@ -1,0 +1,64 @@
+
+===========================================================================
+Advanced engine needed  : ZDoom v2.5.0 or later version
+Primary purpose         : Single play
+===========================================================================
+Title                   : Hell's Asylum
+Filename                : Hells_Asylum.wad
+Author                  : Santtu "MFG38" Pesonen
+Email Address           : mfg38thelps@aol.com
+
+Description             : Welcome to Hell's Asylum, a place where mercy
+			  is not known, where mayhem and insanity reign,
+			  where the forces of Hell gather once more to
+			  kill the lone marine. Welcome to a despicable
+			  place, an abyss of perfected craze which is sure
+			  to challenge you to a fight for survival and
+			  glory.
+
+			  Enjoy your stay!
+
+Additional Credits to   : MrVonsta for helping to test the map
+			  Randy Heit and Graf Zahl for ZDoom
+			  id Software for Doom 2
+===========================================================================
+* What is included *
+
+New levels              : 1
+Sounds                  : Yes
+Music                   : Yes
+Graphics                : Yes
+Dehacked/BEX Patch      : No
+Demos                   : No
+Other                   : No
+Other files required    : None
+
+
+* Play Information *
+
+Game                    : Doom 2
+Map #                   : MAP01
+Single Player           : Designed for
+Cooperative 2-4 Player  : No
+Deathmatch 2-4 Player   : No
+Other game styles       : None
+Difficulty Settings     : Yes
+
+
+* Construction *
+
+Base                    : New from scratch
+Build Time              : In all 29 hours (between Nov 2010 - Feb 2011)
+Editor(s) used          : Doom Builder, SLumpEd, XWE, DecX, MS Paint
+Known Bugs              : None that I noticed.
+May Not Run With...     : older versions of ZDoom (pre-2.5.0)
+
+
+* Copyright / Permissions *
+
+Authors may NOT use the contents of this file as a base for modification or
+reuse.
+
+You MAY distribute this file, provided you include this text file, with no
+modifications.  You may distribute this file in any electronic format (BBS,
+Diskette, CD, etc) as long as you include this file intact.

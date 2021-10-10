@@ -1,0 +1,76 @@
+===========================================================================
+Advanced engine needed  : GZDoom
+Primary purpose         : Single play
+===========================================================================
+Title                   : TRAKtion
+Filename                : traktion.wad
+Author                  : Santtu "MFG38" Pesonen
+Email Address           : mfg38thelps@aol.com
+
+Description             : TRAKtion is a small, arcade-style map in which the
+                          objective is to make it to the exit as fast as
+                          possible. You hit a switch at the start of the
+                          level to start your run, and once you do, you'd
+                          better run as though the devil himself is chasing
+                          you down. The only two weapons at your disposal are
+                          your fist and infighting. A new enemy wave spawns
+                          every 45 seconds. Good luck - you're going to need
+                          it.
+                          
+                          NOTE: This map is intended to be played in a single
+                          sitting with no saves. Please refrain from
+                          saving/loading!
+
+			  Music credits:
+			  Main track: "Battle! Elite Four" from Pokemon
+			  Black/White
+			  Victory track: "Victory Fanfare" from Final
+			  Fantasy VI
+
+===========================================================================
+* What is included *
+
+New levels              : 1
+Sounds                  : No
+Music                   : Yes
+Graphics                : No
+Dehacked/BEX Patch      : No
+Demos                   : No
+Other                   : No
+Other files required    : None
+
+
+* Play Information *
+
+Game                    : Doom 2
+Map #                   : MAP01
+Single Player           : Designed for
+Cooperative 2-4 Player  : No
+Deathmatch 2-4 Player   : No
+Other game styles       : None
+Difficulty Settings     : Not implemented
+
+
+* Construction *
+
+Base                    : New from scratch
+Build Time              : Two weeks or so
+Editor(s) used          : Ultimate Doom Builder, SLADE3
+Known Bugs              : No known bugs.
+Tested With             : GZDoom 4.5.0
+
+
+* Copyright / Permissions *
+
+This work is licensed under the Creative Commons
+Attribution-NonCommercial-ShareAlike 4.0 International License. To view a
+copy of this license, visit http://creativecommons.org/licenses/by-nc-sa/4.0/
+
+You are free to copy and redistribute the material in any medium or format;
+and remix, transform, and build upon the material. If you do so, you must
+give appropriate credit, provide a link to the license, and indicate if
+changes were made. You may do so in any reasonable manner, but not in any way
+that suggests the licensor endorses you or your use. You may not use the
+material for commercial purposes. If you remix, transform, or build upon the
+material, you must distribute your contributions under the same license as
+the original.

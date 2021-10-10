@@ -1,0 +1,61 @@
+===========================================================================
+Advanced engine needed  : Any limit-removing port
+Primary purpose         : Single play
+===========================================================================
+Title                   : MFG38's Unreleased Abominations
+Filename                : mfg_unr.wad
+Author                  : Santtu "MFG38" Pesonen
+Email Address           : mfg38thelps@aol.com
+
+Description             : A collection of two previously unreleased maps
+                          created by me back in 2009. One of them is a
+                          collaboration effort with a friend and the other,
+                          with some modifications, became a map in another
+                          wad of mine.
+
+Additional Credits to   : id Software for Doom and MrVonsta for
+                          participating in the creation of MAP02.
+===========================================================================
+* What is included *
+
+New levels              : 2
+Sounds                  : No
+Music                   : No
+Graphics                : No
+Dehacked/BEX Patch      : No
+Demos                   : No
+Other                   : No
+Other files required    : None
+
+
+* Play Information *
+
+Game                    : Doom 2
+Map #                   : MAP01-02
+Single Player           : Designed for
+Cooperative 2-4 Player  : No
+Deathmatch 2-4 Player   : Player starts only
+Other game styles       : None
+Difficulty Settings     : Not implemented
+
+
+* Construction *
+
+Base                    : New from scratch
+Build Time              : Don't even know if there was any involved...
+Editor(s) used          : Doom Builder 2, SLADE3
+Known Bugs              : None that I noticed or know of.
+May Not Run With...     : non-limit-removing ports
+
+
+* Copyright / Permissions *
+
+Authors may NOT use the contents of this file as a base for modification or
+reuse.  Permissions have been obtained from original authors for any of
+their resources modified or included in this file.
+
+You MAY distribute this file, provided you include this text file, with no
+modifications.  You may distribute this file in any electronic format (BBS,
+Diskette, CD, etc) as long as you include this file intact.  I have
+received permission from the original authors of any modified or included
+content in this file to allow further distribution.

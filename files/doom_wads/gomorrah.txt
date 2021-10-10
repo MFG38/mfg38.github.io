@@ -1,0 +1,85 @@
+===========================================================================
+Advanced engine needed  : GZDoom (4.2.0 or later recommended)
+Primary purpose         : Single play
+===========================================================================
+Title                   : Gomorrah (v1.0)
+Filename                : gomorrah.pk3
+Author                  : Santtu "MFG38" Pesonen
+Email Address           : mfg38thelps@aol.com
+
+Description             : Gomorrah is a mapset for GZDoom consisting of 6
+                          brand-new maps, powered by ukiro's amazing OTEX
+                          texture set. In Gomorrah, you'll be traversing
+                          three different locations - an abandoned
+                          mine/techbase, a medieval castle and a fortress in
+                          Hell - in search of three skull keys. Each skull
+                          key is going to be locked behind a puzzle which
+                          you'll have to solve. Once you have all three of
+                          them, you must use them to open a gate beyond which
+                          lies your final challenge.
+                          
+                          IMPORTANT NOTES:
+                          - Jumping and crouching are disabled.
+                          - Playing with freelook is recommended, as puzzle
+                            hints are hidden in the environment, though not
+                            always at eye level.
+                          - Lighting mode is forced to Standard.
+			  - Loading lights.pk3 or any mod that adds custom
+			    dynamic lights is not advised, as Gomorrah comes
+			    with its own dynamic light definitions and the
+			    final battle will most likely drop your framerate
+			    down to unplayable levels if lights.pk3 is loaded.
+			  - Normal is the standard difficulty you should play
+			    on. As the difficulties don't affect thing
+			    placements, the differences between them are
+			    chiefly in the amount of damage dealt by enemies.
+			    Hard+ is essentially a challenge mode.
+
+===========================================================================
+* What is included *
+
+New levels              : 6
+Sounds                  : Yes
+Music                   : Yes
+Graphics                : Yes
+Dehacked/BEX Patch      : No
+Demos                   : No
+Other                   : No
+Other files required    : None
+
+
+* Play Information *
+
+Game                    : Doom 2
+Map #                   : MAP01-06
+Single Player           : Designed for
+Cooperative 2-4 Player  : No
+Deathmatch 2-4 Player   : No
+Other game styles       : None
+Difficulty Settings     : Not implemented
+
+
+* Construction *
+
+Base                    : New from scratch
+Build Time              : Just under 10 months
+Editor(s) used          : GZDoom Builder, Ultimate Doom Builder, SLADE3,
+                          Notepad(++), Paint.net, Doom Writer
+May Not Run With        : anything that isn't GZDoom
+Tested With             : GZDoom 4.3.3 & 4.4.2
+
+
+* Copyright / Permissions *
+
+This work is licensed under the Creative Commons
+Attribution-NonCommercial-ShareAlike 4.0 International License. To view a
+copy of this license, visit http://creativecommons.org/licenses/by-nc-sa/4.0/
+
+You are free to copy and redistribute the material in any medium or format;
+and remix, transform, and build upon the material. If you do so, you must
+give appropriate credit, provide a link to the license, and indicate if
+changes were made. You may do so in any reasonable manner, but not in any way
+that suggests the licensor endorses you or your use. You may not use the
+material for commercial purposes. If you remix, transform, or build upon the
+material, you must distribute your contributions under the same license as
+the original.

@@ -1,0 +1,69 @@
+===========================================================================
+Advanced engine needed  : Limit-removing
+Primary purpose         : Single play
+===========================================================================
+Title                   : Death is a Dish Best Served Fast
+Filename                : diadbsf.wad
+Author                  : Santtu "MFG38" Pesonen
+Email Address           : mfg38thelps@aol.com
+
+Description             : "Death is a Dish Best Served Fast" is a small
+                          proof-of-concept(ish) map based upon an
+                          unconventional idea for implementing difficulty
+                          settings. The monster count and composition is the
+                          same across all difficulties - it's the weapons
+                          provided and their locations that change with them.
+                          The layout for the map was speedmapped in 30
+                          minutes, with the rest of the development work
+                          being done outside that timeframe.
+
+Additional Credits to   : FuzzballFox for the MIDI used: "Explosions at the
+                          Lidl Bakery"
+===========================================================================
+* What is included *
+
+New levels              : 1
+Sounds                  : No
+Music                   : Yes
+Graphics                : No
+Dehacked/BEX Patch      : Yes
+Demos                   : No
+Other                   : No
+Other files required    : None
+
+
+* Play Information *
+
+Game                    : Doom 2
+Map #                   : MAP01
+Single Player           : Designed for
+Cooperative 2-4 Player  : No
+Deathmatch 2-4 Player   : No
+Other game styles       : None
+Difficulty Settings     : Yes
+
+
+* Construction *
+
+Base                    : New from scratch
+Build Time              : About 3 hours
+Editor(s) used          : Ultimate Doom Builder, SLADE3, Doom Writer, WhackEd
+                          4
+Known Bugs              : None noticed during personal test runs.
+May Not Run With        : vanilla or Chocolate Doom
+Tested With             : Crispy Doom 5.9.2, GZDoom 4.5.0
+
+
+* Copyright / Permissions *
+
+This work is licensed under the Creative Commons
+Attribution-NonCommercial-NoDerivatives 4.0 International License. To view a
+copy of this license, visit http://creativecommons.org/licenses/by-nc-nd/4.0/
+
+You are free to copy and redistribute the material in any medium or format.
+If you do so, you must give appropriate credit, provide a link to the
+license, and indicate if changes were made. You may do so in any reasonable
+manner, but not in any way that suggests the licensor endorses you or your
+use. You may not use the material for commercial purposes. If you remix,
+transform, or build upon the material, you may not distribute the modified
+material.

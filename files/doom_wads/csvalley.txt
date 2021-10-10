@@ -1,0 +1,58 @@
+===========================================================================
+Advanced engine needed  : Any limit-removing port
+Primary purpose         : Single play
+===========================================================================
+Title                   : CyberSpoop Valley
+Filename                : csvalley.wad
+Author                  : Santtu "MFG38" Pesonen
+Email Address           : mfg38thelps@aol.com
+
+Description             : CyberSpoop Valley is a Halloween speedmap. 'Nuff
+                          said.
+
+===========================================================================
+* What is included *
+
+New levels              : 1
+Sounds                  : No
+Music                   : Yes
+Graphics                : No
+Dehacked/BEX Patch      : Yes
+Demos                   : No
+Other                   : No
+Other files required    : None
+
+
+* Play Information *
+
+Game                    : Doom 2
+Map #                   : MAP01
+Single Player           : Designed for
+Cooperative 2-4 Player  : No
+Deathmatch 2-4 Player   : No
+Other game styles       : None
+Difficulty Settings     : Not implemented
+
+
+* Construction *
+
+Base                    : New from scratch
+Build Time              : ~40 minutes
+Editor(s) used          : Ultimate Doom Builder, SLADE3, WhackEd4, Doom
+                          Writer
+May Not Run With        : vanilla/Chocolate Doom
+Tested With             : Crispy Doom 5.4, GZDoom 4.3.3
+
+
+* Copyright / Permissions *
+
+This work is licensed under the Creative Commons Attribution-NonCommercial
+4.0 International License. To view a copy of this license, visit
+http://creativecommons.org/licenses/by-nc/4.0/
+
+You are free to copy and redistribute the material in any medium or format;
+and remix, transform, and build upon the material. If you do so, you must
+give appropriate credit, provide a link to the license, and indicate if
+changes were made. You may do so in any reasonable manner, but not in any way
+that suggests the licensor endorses you or your use. You may not use the
+material for commercial purposes.

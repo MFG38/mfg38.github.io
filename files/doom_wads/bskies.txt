@@ -1,0 +1,63 @@
+===========================================================================
+Advanced engine needed  : GZDoom v1.5.6 or later version
+Primary purpose         : Single play
+===========================================================================
+Title                   : Bleeding Skies
+Filename                : bskies.pk3
+Author                  : Santtu "MFG38" Pesonen
+Email Address           : mfg38thelps@aol.com
+
+Description             : Bleeding Skies is a Doom 2 wad created by MFG38,
+                          powered by the GZDoom engine. You assume the role
+                          of Flynn Carmack, an army veteran who recently
+			  lost his wife to the aliens that have invaded
+                          Earth and seeks revenge. But he is also
+                          mankind's last chance to win the war that
+                          rages...
+
+Additional Credits to   : id Software, Randy Heit, Graf Zahl, MrVonsta,
+                          Magnificent Beard, and Paul Smart at Piece of Pie
+                          Software, as well as the respective authors of
+			  resources used in the wad.
+===========================================================================
+* What is included *
+
+New levels              : 6 (practically 8, but 6 of them are "playable")
+Sounds                  : Yes
+Music                   : Yes
+Graphics                : Yes
+Dehacked/BEX Patch      : No
+Demos                   : No
+Other                   : No
+Other files required    : None
+
+
+* Play Information *
+
+Game                    : Doom 2
+Map #                   : INTROMAP, CREDMAP, E1M1, E1M2, E2M1, E2M2, E3M1,
+                          E3M2
+Single Player           : Designed for
+Cooperative 2-4 Player  : No
+Deathmatch 2-4 Player   : No
+Other game styles       : None
+Difficulty Settings     : Not implemented
+
+
+* Construction *
+
+Base                    : New from scratch
+Build Time              : About 6 weeks
+Editor(s) used          : Doom Builder 2, ACC, SLADE3, MS Paint
+Known Bugs              : None that I noticed.
+May Not Run With...     : ZDoom and older versions of GZDoom (pre-1.5.6)
+
+
+* Copyright / Permissions *
+
+Authors MAY use the contents of this file as a base for modification or
+reuse.
+
+You MAY distribute this file, provided you include this text file, with no
+modifications.  You may distribute this file in any electronic format (BBS,
+Diskette, CD, etc) as long as you include this file intact.

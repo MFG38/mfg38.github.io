@@ -1,0 +1,67 @@
+
+===========================================================================
+Advanced engine needed  : ZDoom or compatible (Zandronum recommended)
+Primary purpose         : Single + coop play
+===========================================================================
+Title                   : I Wanna Be The Hell Veteran: Coop Edition
+Filename                : iwbthvce.wad
+Author                  : Santtu "MFG38" Pesonen
+Email Address           : mfg38thelps@aol.com
+
+Description             : MFG38 proudly presents I Wanna Be The Hell
+                          Veteran, a new hardcore-style wad. Five new,
+                          relentless levels and hundreds of demons await
+                          you. Do you have what it takes to get the Hell
+                          Veteran medal? Grab your shotgun, marine - it's
+                          time to kick demon ass once again.
+
+Additional Credits to   : MrVonsta and Cooler3737 for supporting me
+                          throughout the creation process, Randy Heit and
+                          Graf Zahl for ZDoom, and id Software for the
+                          obvious reason. Also, thanks to this project
+                          itself for being an obsession, and to Doom for
+                          making me fall in love with it.
+===========================================================================
+* What is included *
+
+New levels              : 5
+Sounds                  : No
+Music                   : Yes
+Graphics                : Yes
+Dehacked/BEX Patch      : No
+Demos                   : No
+Other                   : No
+Other files required    : None
+
+
+* Play Information *
+
+Game                    : Doom 2
+Map #                   : MAP01-05
+Single Player           : Designed for
+Cooperative 2-4 Player  : Designed for
+Deathmatch 2-4 Player   : No
+Other game styles       : None
+Difficulty Settings     : Not implemented
+
+
+* Construction *
+
+Base                    : I Wanna Be The Hell Veteran
+Build Time              : 5 minutes
+Editor(s) used          : Doom Builder 2, SLADE3, Guitar Pro 5, MS Paint
+Known Bugs              : The cyberdemon in the red key area in MAP03 seems to
+			  be stuck in its sector, not attacking the player
+			  even when shot, especially on any difficulty level
+			  other than NM. Stretching the sector a bit might help
+			  to resolve the issue, but I'm too lazy to fix it. :P
+May Not Run With...     : non-ZDoom-compatible source ports
+
+
+* Copyright / Permissions *
+
+Authors may NOT use the contents of this file as a base for modification or
+reuse.  Permissions have been obtained from original authors for any of
+their resources modified or included in this file.
+
+You may NOT distribute this file in any format.

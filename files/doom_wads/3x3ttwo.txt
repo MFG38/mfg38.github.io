@@ -1,0 +1,157 @@
+===========================================================================
+Advanced engine needed  : Boom-compatible
+Primary purpose         : Single play
+===========================================================================
+Title                   : 3x3: Take Two
+Filename                : 3x3ttwo.wad
+Release date            : 2021-06-13
+Author                  : Various
+
+Description             : 3x3: Take Two is the spiritual sequel to the 3x3
+                          community project, hosted by MFG38. The set
+                          contains 30 maps from 22 different authors, using
+                          only 3 flats, 3 wall textures and 3 enemy types per
+                          map. Maps were sorted *roughly* by difficulty this
+                          time around to make the final mapset more friendly
+                          for continuous play.
+
+Additional Credits to   : Participating mappers, authors of music tracks used
+                          (see "Music list"), authors of custom textures used
+                          (see "Texture sources"), PeceMan for demos.
+===========================================================================
+* What is included *
+
+New levels              : 30
+Sounds                  : No
+Music                   : Yes
+Graphics                : Yes
+Dehacked/BEX Patch      : Yes
+Demos                   : Yes
+Other                   : No
+Other files required    : None
+
+
+* Play Information *
+
+Game                    : Doom 2
+Map #                   : MAP01-28 + 31-32
+Single Player           : Designed for
+Cooperative 2-4 Player  : Partial
+Deathmatch 2-4 Player   : Partial
+Other game styles       : None
+Difficulty Settings     : Yes
+
+
+* Construction *
+
+Base                    : New from scratch
+Build Time              : A month and a few days
+Editor(s) used          : SLADE3, Doom Writer, Paint.net, WhackEd4, Notepad
+Known Bugs              : Potential softlock spot near the starting area in
+                          MAP16.
+May Not Run With        : non-Boom-compatible ports
+Tested With             : PrBoom+ 2.5.1.5, GZDoom 4.5.0
+
+
+* Map list *
+
+MAP01: "A Short Ascent" by PeceMan
+MAP02: "Powered by Grayskull" by DeathBear
+MAP03: "Keep Out!" by Mr. Tadpole
+MAP04: "Metal-pipe-skin" by Jacek Nowak
+MAP05: "Moss Cushion" by Alper002
+MAP06: "The Devil's Gut" by MFG38
+MAP07: "Coastal" by AtticTelephone
+MAP08: "Toxic Rumble" by PinkFlamingo
+MAP09: "Vile Book Club" by Worriedidiot
+MAP10: "Maudlin of the Wall" by Helm
+MAP11: "Sludge Terminal" by SCF
+MAP12: "Nukage Castle" by Jacek Nowak
+MAP13: "Nebula Swamp" by Salmon
+MAP14: "Forkress of Doom" by Worst
+MAP15: "myhouse.wad" by muumi
+MAP16: "A Librarian's Nightmare" by 7Soul
+MAP17: "3TEK" by Dieting Hippo
+MAP18: "Iron and Stone" by Captain Toenail
+MAP19: "High Class Bypass" by PeceMan
+MAP20: "The Badlands" by Captain Toenail
+MAP21: "Metallurgy" by PinkFlamingo
+MAP22: "Garden of Despair" by myolden
+MAP23: "Skull Faced B*stards" by NeilJohnRips
+MAP24: "Rocket Tears 2" by Death Bear
+MAP25: "FRICKIN HECK" by reverie
+MAP26: "Metal2Metal" by Helm
+MAP27: "City of Chalk and Flame" by Dac
+MAP28: "Formula 666" by muumi
+MAP31: "Tightrope" by MFG38
+MAP32: "The Faces of Evil" by BoxY
+
+
+* Music list *
+
+MAP01: ??? by zsírosbödönm
+MAP02: "Warsword" by Jimmy
+MAP04: "Dear Onion" by Lippeth from .MID the way id did (midtwid2)
+MAP05: "BRICKDAD" by Zan-Zan-Zawa-Veia
+MAP06: "Waltz of the Demons" from Doom
+MAP07: "The Hall of Collosia" from Secret of Evermore
+MAP08: "Catalyst" by Psyrus
+MAP10: "Intro" from Devilish / Bad Omen
+MAP11: "Forbidden Area" from Castlevania: Aria of Sorrow
+MAP12: "Braachsel" by decino from .MID the way id did (midtwid2)
+MAP13: "Nightfall" by stewboy
+MAP14: "Realistic Approach" by Velvetic
+MAP15: "Let Me Fly" by Jimmy
+MAP16: "Level 7" from Darkman, arranged by Samusmmx
+MAP17: "Blades of Hell" by Dieting Hippo
+MAP18: "Cathedral Fight" from Painkiller
+MAP19: "Whipped n Chained" by Doomkid from .MID the way id did
+MAP20: "Water World" from Duke Nukem 3D
+MAP21: "Alfred H. (My Family's Plot)" from Duke Nukem 3D
+MAP22: "Destiny's Stage" from Castlevania: Order of Ecclesia
+MAP23: "Skull Faced B*stards" by NeilJohnRips
+MAP25: "Easel" by Jimmy
+MAP26: "Through Eyes of Glass" by Forbidden
+MAP27: "Avalanche" by Mark Klem
+MAP28: "Magical Sound Shower" from Outrun
+MAP31: "The Hills Have SW2SKIN Eyes" by MFG38
+MAP32: "NM100s Pistol Start or Else" by Peter Lawrence from .MID the way id did
+
+
+* Texture sources *
+
+32in24-15 v2 by various authors
+Cage Textures by Cage
+CC4-Tex by various authors
+CR8 Textures for Quake by Speedy, converted to Doom by Mechadon
+MAYhem 2020 by various authors
+Mek's Box o' Skies by Mechadon
+OTEX by Ola "ukiro" Björling
+Sunlust by dannebubinga and Ribbiks
+Ultimate Doom by id Software
+
+Custom skies for MAP04 and MAP12 by Jacek Nowak
+Custom sky for MAP05 by Jim Flynn
+Custom textures (excl. sky) for MAP14 by Worst
+Custom sky for MAP14 from OBLIGE by Andrew Apted
+Custom sky for MAP27 by Matt Tropiano
+Custom textures for MAP31 by MFG38
+
+
+* Copyright / Permissions *
+
+This work is licensed under the Creative Commons
+Attribution-NonCommercial-NoDerivatives 4.0 International License. To view a
+copy of this license, visit http://creativecommons.org/licenses/by-nc-nd/4.0/
+
+You are free to copy and redistribute the material in any medium or format.
+If you do so, you must give appropriate credit, provide a link to the
+license, and indicate if changes were made. You may do so in any reasonable
+manner, but not in any way that suggests the licensor endorses you or your
+use. You may not use the material for commercial purposes. If you remix,
+transform, or build upon the material, you may not distribute the modified
+material.
+
+* Where to get the file that this text file describes *
+
+The Usual: ftp://archives.gamers.org/pub/idgames/ and mirrors

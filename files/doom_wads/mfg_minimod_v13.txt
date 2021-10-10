@@ -1,0 +1,101 @@
+===========================================================================
+Advanced engine needed  : GZDoom
+Primary purpose         : No levels included
+===========================================================================
+Title                   : MFG38's Doom Weapon Mini-Mod
+Filename                : mfg_minimod_v13.pk3
+Author                  : Santtu "MFG38" Pesonen
+Email Address           : mfg38thelps@aol.com
+
+Description             : This is a mini-mod for GZDoom that essentially
+                          makes the weapons more situational while keeping
+                          the rest of the vanilla gameplay intact.
+
+===========================================================================
+* What is included *
+
+New levels              : None
+Sounds                  : No
+Music                   : No
+Graphics                : No
+Dehacked/BEX Patch      : No
+Demos                   : No
+Other                   : See "Details" below.
+Other files required    : None
+
+
+* Play Information *
+
+Game                    : Any Doom IWAD
+Map #                   : N/A
+Single Player           : Designed for
+Cooperative 2-4 Player  : No
+Deathmatch 2-4 Player   : No
+Other game styles       : None
+Difficulty Settings     : Not implemented
+
+
+* Details *
+
+Interested in the details of how each weapon (except the BFG) has been modified?
+Then read on!
+
+Fist:
+The fist now deals 6-10 damage (60-100 with Berserk), and punching the oxygen
+does not alert monsters. However, hurting an unaware monster with the fist will
+alert other monsters within a 256-unit radius. 
+
+Chainsaw:
+Each chainsaw hit now deals 4-20 damage (4 * random(1,5)).
+
+Pistol:
+The pistol now deals 8-13 damage and has a range of 1600 map units. It has the
+longest range out of the hitscan weapons.
+
+Shotgun:
+The shotgun now fires 8 "pellets", each of which deal 11-14 damage. It has a range
+of 448 map units.
+
+SSG:
+The SSG now fires 16 "pellets", each of which deal 12-15 damage. It has a slightly
+shorter range than the shotgun at 384 map units.
+
+Chaingun:
+The chaingun now deals 8-12 damage and has a range of 1280 map units. Also, it
+fires 1 bullet in a cycle instead of 2.
+
+Rocket launcher:
+Rockets fired by the rocket launcher now have a base damage of 25-150
+(25 * random(1,6)), and their explosions deal an additional 100 damage at a radius
+of 96 map units.
+
+Plasma gun:
+The plasma gun's projectiles now deal 10-40 damage (5 * random(2,8)), and their
+speed has been slightly increased. The "cooldown" time after the player finishes
+firing the plasma gun has also been slightly increased.
+
+
+* Construction *
+
+Base                    : New from scratch
+Build Time              : 24-ish hours (with most of it spent doing something
+                          else)
+Editor(s) used          : SLADE, Notepad
+Known Bugs              : None that I know of.
+May Not Run With        : any port that is not GZDoom
+Tested With             : GZDoom 3.7.2
+
+
+* Copyright / Permissions *
+
+This work is licensed under the Creative Commons
+Attribution-NonCommercial-NoDerivatives 4.0 International License. To view a
+copy of this license, visit http://creativecommons.org/licenses/by-nc-nd/4.0/
+
+You are free to copy and redistribute the material in any medium or format.
+If you do so, you must give appropriate credit, provide a link to the
+license, and indicate if changes were made. You may do so in any reasonable
+manner, but not in any way that suggests the licensor endorses you or your
+use. You may not use the material for commercial purposes. If you remix,
+transform, or build upon the material, you may not distribute the modified
+material.

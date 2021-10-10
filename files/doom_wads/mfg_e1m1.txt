@@ -1,0 +1,62 @@
+===========================================================================
+Primary purpose         : Single play
+===========================================================================
+Title                   : Another Damn E1M1 Remake
+Filename                : mfg_e1m1.wad
+Author                  : Santtu "MFG38" Pesonen
+Email Address           : mfg38thelps@aol.com
+
+Description             : Another Damn E1M1 Remake was an effort to see if
+                          I could create a map within the limits of the
+                          vanilla Doom engine, which I apparently
+                          accomplished. The map is fairly small, but it's
+                          not exactly a speedmap, although you could
+                          probably think of it as one.
+
+Additional Credits to   : id Software for Doom.
+===========================================================================
+* What is included *
+
+New levels              : 1
+Sounds                  : No
+Music                   : No
+Graphics                : No
+Dehacked/BEX Patch      : No
+Demos                   : No
+Other                   : No
+Other files required    : None
+
+
+* Play Information *
+
+Game                    : Doom
+Map #                   : E1M1
+Single Player           : Designed for
+Cooperative 2-4 Player  : No
+Deathmatch 2-4 Player   : No
+Other game styles       : None
+Difficulty Settings     : Not implemented
+
+
+* Construction *
+
+Base                    : New from scratch
+Build Time              : An hour or two
+Editor(s) used          : Doom Builder 2
+Known Bugs              : None that I noticed/know of.
+May Not Run With...     : The map was tested in Chocolate Doom as it was
+                          constructed to ensure full vanilla compatibility,
+                          so it should run even in vanilla Doom.
+
+
+* Copyright / Permissions *
+
+Authors may NOT use the contents of this file as a base for modification or
+reuse.  Permissions have been obtained from original authors for any of
+their resources modified or included in this file.
+
+You MAY distribute this file, provided you include this text file, with no
+modifications.  You may distribute this file in any electronic format (BBS,
+Diskette, CD, etc) as long as you include this file intact.  I have
+received permission from the original authors of any modified or included
+content in this file to allow further distribution.

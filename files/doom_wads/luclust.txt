@@ -1,0 +1,65 @@
+===========================================================================
+Advanced engine needed  : Any limit-removing port
+Primary purpose         : Single play
+===========================================================================
+Title                   : Luciferian Lust
+Filename                : luclust.wad
+Release date            : 2020-02-14
+Author                  : Santtu "MFG38" Pesonen
+Email Address           : mfg38thelps@aol.com
+
+Description             : Luciferian Lust is a loosely Hell-themed 2-hour
+                          speedmap made in Valentine's Day of 2020. The map
+                          includes 42 demons to kill - the catch is that you
+                          have to manage it with no health or armor given to
+                          you other than a soulsphere and a green armor, as
+                          well as a few (and I *do* mean few) health and
+                          armor bonuses scattered across the map.
+
+===========================================================================
+* What is included *
+
+New levels              : 1
+Sounds                  : No
+Music                   : Yes
+Graphics                : No
+Dehacked/BEX Patch      : Yes
+Demos                   : No
+Other                   : No
+Other files required    : None
+
+
+* Play Information *
+
+Game                    : Doom 2
+Map #                   : MAP01
+Single Player           : Designed for
+Cooperative 2-4 Player  : No
+Deathmatch 2-4 Player   : No
+Other game styles       : None
+Difficulty Settings     : Not implemented
+
+
+* Construction *
+
+Base                    : New from scratch
+Build Time              : 2 hours (+ a few minutes to put the wad together)
+Editor(s) used          : Ultimate Doom Builder, SLADE3, WhackEd4, Doom Writer
+Known Bugs              : None noticed during testing.
+May Not Run With        : non-limit-removing ports
+Tested With             : Crispy Doom 5.4, GZDoom 4.2.4
+
+
+* Copyright / Permissions *
+
+This work is licensed under the Creative Commons
+Attribution-NonCommercial-NoDerivatives 4.0 International License. To view a
+copy of this license, visit http://creativecommons.org/licenses/by-nc-nd/4.0/
+
+You are free to copy and redistribute the material in any medium or format.
+If you do so, you must give appropriate credit, provide a link to the
+license, and indicate if changes were made. You may do so in any reasonable
+manner, but not in any way that suggests the licensor endorses you or your
+use. You may not use the material for commercial purposes. If you remix,
+transform, or build upon the material, you may not distribute the modified
+material.

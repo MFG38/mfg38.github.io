@@ -1,0 +1,62 @@
+===========================================================================
+Advanced engine needed  : None (ZDoom recommended)
+Primary purpose         : Single play
+===========================================================================
+Title                   : Spartan Nightmare
+Filename                : SpartanNightmare.wad
+Author                  : Santtu "MFG38" Pesonen
+Email Address           : mfg38thelps@aol.com
+
+Description             : Fair warning: This wad is insane. And I mean
+                          super hyper psychopathy-grade insane. If you
+                          really wish to make it alive, try ITYTD. Don't
+                          say I didn't warn you.
+
+Additional Credits to   : Machine Head for the awesome song that I Am Hell
+                          is, and Guitar Pro 5 for the Export to MIDI
+                          feature. And most of all, thanks to Doom itself.
+                          My love for this game is eternal.
+===========================================================================
+* What is included *
+
+New levels              : 1
+Sounds                  : No
+Music                   : Yes
+Graphics                : No
+Dehacked/BEX Patch      : No
+Demos                   : No
+Other                   : It's hard. Just saying again in case you missed my
+			  warning.
+Other files required    : None
+
+
+* Play Information *
+
+Game                    : Doom 2
+Map #                   : MAP01
+Single Player           : Designed for
+Cooperative 2-4 Player  : No
+Deathmatch 2-4 Player   : No
+Other game styles       : None
+Difficulty Settings     : Not implemented
+
+
+* Construction *
+
+Base                    : New from scratch
+Build Time              : 2 days, total 3-4 hours
+Editor(s) used          : Doom Builder 2, SLADE3, Guitar Pro 5
+Known Bugs              : None that I noticed.
+
+
+* Copyright / Permissions *
+
+Authors may NOT use the contents of this file as a base for modification or
+reuse.  Permissions have been obtained from original authors for any of
+their resources modified or included in this file.
+
+You MAY distribute this file, provided you include this text file, with no
+modifications.  You may distribute this file in any electronic format (BBS,
+Diskette, CD, etc) as long as you include this file intact.  I have
+received permission from the original authors of any modified or included
+content in this file to allow further distribution.

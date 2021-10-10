@@ -1,0 +1,67 @@
+===========================================================================
+Advanced engine needed  : Any limit-removing port
+Primary purpose         : Single play
+===========================================================================
+Title                   : Nefarious Engine
+Filename                : nefeng.wad
+Release date            : 2020-02-18
+Author                  : Santtu "MFG38" Pesonen
+Email Address           : mfg38thelps@aol.com
+
+Description             : Nefarious Engine was mainly an attempt at creating
+                          a map with exactly 666 lines. (And the map actually
+                          does have exactly 666 lines!) In Nefarious Engine,
+                          the only boomstick you're granted is a rocket
+                          launcher, with a berserk pack as a backup of sorts.
+                          Also, the exit is guarded by a cyberdemon, but a
+                          conveniently placed crusher might take him down if
+                          you can find the switch to activate it...
+
+===========================================================================
+* What is included *
+
+New levels              : 1
+Sounds                  : No
+Music                   : Yes
+Graphics                : No
+Dehacked/BEX Patch      : Yes
+Demos                   : No
+Other                   : No
+Other files required    : None
+
+
+* Play Information *
+
+Game                    : Doom 2
+Map #                   : MAP21
+Single Player           : Designed for
+Cooperative 2-4 Player  : No
+Deathmatch 2-4 Player   : No
+Other game styles       : None
+Difficulty Settings     : Not implemented
+
+
+* Construction *
+
+Base                    : New from scratch
+Build Time              : Just under 4 hours
+Editor(s) used          : Ultimate Doom Builder, SLADE3, WhackEd4, Doom
+                          Writer
+Known Bugs              : None noticed during testing.
+May Not Run With        : non-limit-removing ports
+Tested With             : Crispy Doom 5.4, GZDoom 4.2.4
+
+
+* Copyright / Permissions *
+
+This work is licensed under the Creative Commons
+Attribution-NonCommercial-NoDerivatives 4.0 International License. To view a
+copy of this license, visit http://creativecommons.org/licenses/by-nc-nd/4.0/
+
+You are free to copy and redistribute the material in any medium or format.
+If you do so, you must give appropriate credit, provide a link to the
+license, and indicate if changes were made. You may do so in any reasonable
+manner, but not in any way that suggests the licensor endorses you or your
+use. You may not use the material for commercial purposes. If you remix,
+transform, or build upon the material, you may not distribute the modified
+material.
