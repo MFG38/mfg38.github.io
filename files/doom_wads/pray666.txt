@@ -1,0 +1,59 @@
+===========================================================================
+Advanced engine needed	: Any limit-removing port (ZDoom recommended)
+Primary purpose         : Single + coop play
+===========================================================================
+Title                   : Prayers of Armageddon
+Filename                : pray666.wad
+Author                  : Santtu "MFG38" Pesonen
+Email Address           : mfg38thelps@aol.com
+
+Description             : Prayers of Armageddon was my first ever publicly
+                          released Doom mapping effort. Quite honestly,
+                          it's horrendous.
+
+Additional Credits to   : id Software (obviously) and MrVonsta.
+===========================================================================
+* What is included *
+
+New levels              : 33
+Sounds                  : No
+Music                   : Yes
+Graphics                : Yes
+Dehacked/BEX Patch      : No
+Demos                   : No
+Other                   : No
+Other files required    : None
+
+
+* Play Information *
+
+Game                    : Doom 2
+Map #                   : MAP01-MAP33
+Single Player           : Designed for
+Cooperative 2-4 Player  : Player starts only
+Deathmatch 2-4 Player   : No
+Other game styles       : None
+Difficulty Settings     : Yes
+
+
+* Construction *
+
+Base                    : New from scratch
+Build Time              : Nine months or so
+Editor(s) used          : Doom Builder, SLumpEd, MS Paint
+Known Bugs              : Playing in a non-ZDoom-based port may present
+			  a lot of bugs, e.g. making some secrets unobtainable.
+May Not Run With...     : DOSBox and vanilla Doom 2
+
+
+* Copyright / Permissions *
+
+Authors MAY use the contents of this file as a base for modification or
+reuse.  Permissions have been obtained from original authors for any of
+their resources modified or included in this file.
+
+You MAY distribute this file, provided you include this text file, with no
+modifications.  You may distribute this file in any electronic format (BBS,
+Diskette, CD, etc) as long as you include this file intact.  I have
+received permission from the original authors of any modified or included
+content in this file to allow further distribution.
