@@ -1,0 +1,16 @@
+A Piece of Hell
+
+A small Doom 2 wad of 5 maps made by members of the Piece of Pie Software
+community, a ZDoom map pack made in Hexen format. Howevever it's strongly
+advised you play using the latest version of the GZDoom source port as that's
+what it was tested with by all those who participated in this project.
+
+How to play:
+Drag the APieceOfHell.pk3 to your gzdoom.exe shortcut and select Doom 2 as
+the IWAD and that's it, enjoy.
+
+Credits
+- Mapping: DCraven_0ne, InfernalMonsoon, MFG38
+- Story: InfernalMonsoon
+- Wad Compiler: MFG38
+- Custom monsters: DCraven_0ne
