@@ -1,0 +1,70 @@
+===========================================================================
+Advanced engine needed  : Boom-compatible
+Primary purpose         : Single play
+===========================================================================
+Title                   : Literalism
+Filename                : literalism.wad
+Release date            : 2021-10-17
+Author                  : Various
+
+Description             : Literalism is a 26-level Boom-compatible mapset
+                          that came to life as a community project hosted by
+                          MFG38. In a similar fashion to how speedmapping
+                          sessions often provide a theme and/or restriction
+                          to work with, participating mappers were given a
+                          randomly generated map title to make their maps.
+
+Additional Credits to   : See lit_maplist.txt for map-specific credits.
+===========================================================================
+* What is included *
+
+New levels              : 26
+Sounds                  : No
+Music                   : Yes
+Graphics                : Yes
+Dehacked/BEX Patch      : Yes
+Demos                   : Yes
+Other                   : No
+Other files required    : None
+
+
+* Play Information *
+
+Game                    : Doom 2
+Map #                   : MAP01-26
+Single Player           : Designed for
+Cooperative 2-4 Player  : Partial (see lit_maplist.txt for map-specific details)
+Deathmatch 2-4 Player   : Partial (see lit_maplist.txt for map-specific details)
+Other game styles       : None
+Difficulty Settings     : Partial (see lit_maplist.txt for map-specific details)
+
+
+* Construction *
+
+Base                    : New from scratch
+Build Time              : About 3 months in total
+Editor(s) used          : SLADE3, Notepad(++), Paint.net, Doom Writer,
+                          WhackEd4
+Known Bugs              : Should be relatively bug-free. Relatively.
+May Not Run With        : non-Boom-compatible ports
+Tested With             : PrBoom+ 2.5.1.4, GZDoom 4.5.0
+
+
+* Copyright / Permissions *
+
+This work is licensed under the Creative Commons
+Attribution-NonCommercial-NoDerivatives 4.0 International License. To view a
+copy of this license, visit http://creativecommons.org/licenses/by-nc-nd/4.0/
+
+You are free to copy and redistribute the material in any medium or format.
+If you do so, you must give appropriate credit, provide a link to the
+license, and indicate if changes were made. You may do so in any reasonable
+manner, but not in any way that suggests the licensor endorses you or your
+use. You may not use the material for commercial purposes. If you remix,
+transform, or build upon the material, you may not distribute the modified
+material.
+
+* Where to get the file that this text file describes *
+
+The Usual: ftp://archives.gamers.org/pub/idgames/ and mirrors
+Web sites: https://mfg38.github.io/
