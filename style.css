@@ -152,6 +152,16 @@ th.colGenre
 	width: 32%;
 }
 
+th.colMIDIName
+{
+	width: 60%;
+}
+
+th.colMIDIDesc
+{
+	width: 40%;
+}
+
 table.wadInfo
 {
 	table-layout: fixed;
