@@ -1,0 +1,117 @@
+===========================================================================
+Advanced engine needed  : Limit-removing
+Primary purpose         : Single play
+===========================================================================
+Title                   : Charcoal
+Filename                : charcoal.wad
+Release date            : 2021-10-27
+Author                  : Santtu "MFG38" Pesonen
+Email Address           : mfg38thelps@aol.com
+
+Description             : Charcoal is a 21-level limit-removing megawad made
+                          during the NaNoWADMo event in 2021. The set is
+                          divided into 4 "chapters", each with their own
+                          theme, and has a loose narrative about our
+                          protagonist traversing through the locales,
+                          ultimately entering an odd-looking dimension and
+                          destroying a machine. Each map for Charcoal was
+                          made as a speedmap in 75 minutes or less.
+
+Additional Credits to   : See the Credits section below.
+===========================================================================
+* What is included *
+
+New levels              : 21
+Sounds                  : No
+Music                   : Yes
+Graphics                : Yes
+Dehacked/BEX Patch      : Yes
+Demos                   : Yes
+Other                   : No
+Other files required    : None
+
+
+* Play Information *
+
+Game                    : Doom 2
+Map #                   : MAP01-21
+Single Player           : Designed for
+Cooperative 2-4 Player  : No
+Deathmatch 2-4 Player   : No
+Other game styles       : None
+Difficulty Settings     : Not implemented
+
+
+* Construction *
+
+Base                    : New from scratch
+Build Time              : Just under a month
+Editor(s) used          : Ultimate Doom Builder, SLADE3, Doom Writer,
+                          Paint.net, WhackEd4, Notepad(++)
+Known Bugs              : Miscellaneous visual glitches.
+                          Sky transfer effects in MAP15-21 don't render
+                          properly in GZDoom's hardware renderer.
+                          Demos desync in PrBoom+.
+May Not Run With        : vanilla or Chocolate Doom
+Tested With             : Crispy Doom 5.10.3, PrBoom+ 2.5.1.4 (cl9), GZDoom
+                          4.5.0
+
+
+* Credits *
+
+MUSIC
+-----
+Title: "Opening to Hell (Remix)" by MFG38
+Intermission: "Guardhouse (1st Floor)" from Resident Evil
+Text screen: "Frozen in Time" from Metroid Fusion
+
+MAP01: "Stage 3 - City Center" from Ninja Warriors (SNES)
+MAP02: "Stage 1" from Ninja Gaiden Shadow
+MAP03: "Boomer Kuwanger's Stage" from Mega Man X
+MAP04: "Flying Battery Zone: Act 1" from Sonic & Knuckles
+MAP05: "Industen" from ActRaiser 2
+MAP06: "Haunting Echoes" by Jimmy
+MAP07: "Temple" from ActRaiser
+MAP08: "Queen's Dream" by Ribbiks
+MAP09: "Decadence of God" from Breath of Fire 2
+MAP10: "Malek's Bastion" from Blood Omen: Legacy of Kain
+MAP11: "Black Fortress" from Bomberman 64
+MAP12: "Omnidirectional Ass-Kicking" by Jimmy
+MAP13: "Root of M" by MFG38
+MAP14: "BSL Laboratory" from Metroid Fusion
+MAP15: "Scene of Pandemonium" from Dungeon Master (SNES)
+MAP16: "Party is Dead" by Ribbiks
+MAP17: "Integrated Massive Arm Cannon" by MFG38
+MAP18: "Library" from Resident Evil 2
+MAP19: "Cathedral 1" from Chrono Trigger
+MAP20: "SA-X Arrival" from Metroid Fusion
+MAP21: "Sunny Skies" by MFG38
+
+TEXTURES
+--------
+Cage's Texture Pack by Cage
+Deconstruct Texture Pack by stecki
+GothicTX by Gothic Team
+Quake Texture Pack: original textures by id Software, converted by Ceeb
+
+Chapter 1-3 skies from OTEX by Ola "ukiro" Björling
+Chapter 4 skies from Mek's Box o' Skies by Mechadon
+
+
+* Copyright / Permissions *
+
+This work is licensed under the Creative Commons
+Attribution-NonCommercial-NoDerivatives 4.0 International License. To view a
+copy of this license, visit http://creativecommons.org/licenses/by-nc-nd/4.0/
+
+You are free to copy and redistribute the material in any medium or format.
+If you do so, you must give appropriate credit, provide a link to the
+license, and indicate if changes were made. You may do so in any reasonable
+manner, but not in any way that suggests the licensor endorses you or your
+use. You may not use the material for commercial purposes. If you remix,
+transform, or build upon the material, you may not distribute the modified
+material.
+
+* Where to get the file that this text file describes *
+
+Web sites: https://mfg38.github.io/
