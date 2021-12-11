@@ -230,6 +230,11 @@ img.centeredImage
 	text-align: center;
 }
 
+.bigText
+{
+	font-size: 17px !important;
+}
+
 .codeBlock
 {
 	width: 50%;
