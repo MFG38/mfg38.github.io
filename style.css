@@ -225,6 +225,11 @@ img.centeredImage
 	text-align: justify;
 }
 
+.centeredText
+{
+	text-align: center;
+}
+
 .codeBlock
 {
 	width: 50%;
