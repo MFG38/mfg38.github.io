@@ -6,6 +6,7 @@ Title                   : Literalism
 Filename                : literalism.wad
 Release date            : 2021-10-17
 Author                  : Various
+Email Address           : mfg38thelps@aol.com
 
 Description             : Literalism is a 26-level Boom-compatible mapset
                           that came to life as a community project hosted by
@@ -66,5 +67,4 @@ material.
 
 * Where to get the file that this text file describes *
 
-The Usual: ftp://archives.gamers.org/pub/idgames/ and mirrors
 Web sites: https://mfg38.github.io/
