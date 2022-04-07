@@ -154,12 +154,17 @@ th.colGenre
 
 th.colMIDIName
 {
-	width: 60%;
+	width: 50%;
 }
 
 th.colMIDIDesc
 {
-	width: 40%;
+	width: 42%;
+}
+
+th.colMIDILength
+{
+	width: 8%;
 }
 
 table.wadInfo
