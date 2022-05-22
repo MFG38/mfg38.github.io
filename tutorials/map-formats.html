@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title>Map formats and which one to pick - MFG38's Fun Hub</title>
+		<meta charset="UTF-8">
+		<meta name="author" content="Santtu Pesonen">
+		<meta name="keywords" content="Doom, WADs, Mapping, Map Formats, Tutorial, Guide">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="../style.css">
+	</head>
+	
+	<body>
+		<div id="navbarPlaceholder">
+			<script type="text/javascript" src="../embedScripts.js"></script>
+			<script type="text/javascript">
+				EmbedNavbar();
+			</script>
+			<noscript>There should be a navbar here... Please enable scripts in your adblocker or whatever.</noscript>
+		</div>
+		
+		<div class="backToIndex">
+			<a href="../tutorial_index.html">Back to tutorial index</a>
+		</div>
+		
+		<h2 class="tutorialTitle">Map formats and which one to pick</h2>
+		
+		<p class="mainText">
+            <b>Quick navigation:</b><br>
+            <a href="#doom"  style="margin-left: 2%;">Doom format</a><br>
+            <a href="#boom"  style="margin-left: 2%;">Boom format</a><br>
+            <a href="#hexen" style="margin-left: 2%;">Hexen format</a><br>
+            <a href="#udmf"  style="margin-left: 2%;">UDMF format</a><br>
+            <br>
+            In this tutorial, I'll be covering the different <strong>map formats</strong> available for Doom, the differences
+            between them and which one to pick for certain use cases.<br>
+            <br>
+            For a beginner just getting into Doom mapping, it can be understandably difficult to pick a map format due to the
+            sheer amount available upon opening Doom Builder. I mean there's just so many different configurations, how could
+            one possibly know which one to set up for their first map? But fret not, for I'm here to clarify the basic formats
+            for you, as well as answer some questions about which source ports you should test each format in. I'll try to be as
+            comprehensive as possible, so this might get a little long-winded. So go grab a beverage, sit back and let me take
+            you through the rest of this tutorial/guide.<br>
+            <br><br>
+        </p>
+
+        <h3 id="doom">Doom format</h3>
+
+        <p class="mainText">
+            <strong>Doom format</strong>, also known as <strong>vanilla format</strong>, is the standard, non-extended map format
+            that's used by the IWAD maps. Maps that aim for vanilla compatibility (i.e. compatibility with Chocolate Doom or the
+            original DOS EXE) are generally made in this format. Limit-removing maps also generally fall under this format.<br>
+            <br>
+            Doom format is largely the only map format where the <b>static limits</b> of the Doom engine truly matter, in particular if
+            vanilla compatibility is desired. Since it's essentially a non-extended map format, taking the static limits into account
+            and staying within them is important when making vanilla-compatible maps. The static limits <i>can</i>, however, also be
+            safely ignored if vanilla compatibility isn't needed - in this case, the map will become <strong>limit-removing</strong>.
+            Naturally, a limit-removing map won't run in a strictly vanilla-compatible source port. Or maybe it will, until you run
+            into a visplane overflow or some other thing that exceeds the static limits.<br>
+            <br>
+            As far as line actions and sector specials are concerned, in Doom format, they are limited to the ones hardcoded into the
+            original Doom engine. Line actions or sector specials from the extended formats won't work in Doom-format maps, at least
+            not in a source port that doesn't also support those formats. If Chocolate Doom detects a line action or sector special
+            that's clearly an extended-format one in a map, it can even result in a crash. Or if it doesn't, that line action or sector
+            special just won't work as intended unless you run the map in a source port that supports it. For limit-removing maps, though,
+            Crispy Doom supports MBF sky transfers - see my <a href="/mbf-sky-transfer.html">sky transfer tutorial</a> on how to use them.
+            In strict vanilla, MBF sky transfers are not supported.<br>
+            <br>
+            Difficulty-wise, thing placement in Doom format is controlled by three flags: "Easy" for things that should appear on ITYTD and
+            HNTR, "Medium" for HMP and "Hard" for UV and NM. Outside of difficulty flags, there's also the "Multiplayer" flag for things
+            that should only appear on multiplayer game modes (cooperative and deathmatch). Note that vanilla Doom doesn't differentiate
+            between coop and deathmatch for multiplayer-only things - from the engine's perspective, the two modes are one and the same in
+            terms of thing placement.<br>
+            <br>
+            Use Doom format when you want to make a vanilla-compatible or limit-removing map. Doom format is also generally recommended for
+            beginners just getting into mapping, as it's arguably the least overwhelming and most accessible format to work in.<br>
+            <br>
+            <b>When to map in Doom format?</b> When you're starting out. Try and make a vanilla-compatible map as your first.<br>
+            <b>Which port to test in?</b> DOS / Chocolate Doom (vanilla), Crispy Doom (limit-removing)<br>
+            <br><br>
+        </p>
+
+        <h3 id="boom">Boom format</h3>
+
+        <p class="mainText">
+            <strong>Boom format</strong> is arguably the oldest and most widely used extended map format, introduced by the Boom source port
+            family, hence its name. It introduced a bunch of new mapping features that have become widely utilized by mappers of all skill levels,
+            such as generalized line actions, translucency and scrolling floors, the latest of which is famously utilized in <b>voodoo doll
+            scripting</b>.<br>
+            <br>
+            Perhaps the most revolutionary feature added by Boom format, <b>generalized line actions</b>, essentially lets you define line actions not
+            available in vanilla Doom or in the predefined new line actions added by Boom. By using a generalized line action, you can achieve more
+            control than usual over things such as how long a lift waits before going back up, the speed of a door etc. A generalized line action can
+            usually be identified by being a 4-or-5-number sequence as opposed to the 1-3-number sequences used by predefined line actions, and by using
+            a generalized line action, you can control every aspect of the assigned action individually. If there's something very specific you want to
+            do and you can't find it in the list of predefined line actions, there's a very high chance you can do it with a generalized one.<br>
+            <br>
+            Another quite popular feature supported by Boom is the <b>MBF sky transfer</b>, which allows the mapper to define an arbitrary sky texture
+            (or several!) for a given map instead of having to settle for the one hardcoded into the map slot. This feature becomes very useful in megawads
+            that have a non-standard "episode" structure, such as Eviternity with its 6 distinctly themed chapters that consist of 5 maps each. Having the
+            same sky stuck across 2 chapters' worth of maps would only mess with that theming, right?<br>
+            <br>
+            In addition, multiplayer-specific thing placement in Boom format can be split between coop and deathmatch. In UDB, the respective flags are called
+            "Not Deathmatch" and "Not Cooperative", and, as the names imply, they will prevent the thing with one of said flags from spawning in one of those
+            modes. Difficulty-wise, Boom handles thing placement the same way as Doom format: "Easy", "Medium" and "Hard" flags for ITYTD/HNTR, HMP and UV/NM
+            respectively.<br>
+            <br>
+            Boom format is best used for maps where the widest compatibility range is desired, as most advanced source ports support the Boom feature set. The
+            obvious caveat is that you won't be able to play a Boom-format map in a more vanilla-strict source port like Chocolate Doom.<br>
+            <br>
+            <b>When to map in Boom format?</b> After you've made a few Doom-format maps.<br>
+            <b>Which port to test in?</b> PrBoom+, dsda-doom<br>
+            <br><br>
+        </p>
+
+        <h3 id="hexen">Hexen format</h3>
+
+        <p class="mainText">
+            <strong>Hexen format</strong>, as its name implies, was first introduced by the game Hexen. Perhaps most famously, it brought with it ACS (short
+            for Action Code Script), a scripting language that allows the scripting of elaborate sequences and map-specific logic. ACS support for Doom maps
+            was first implemented by ZDoom, and the same source port also greatly extended the language's functionality later down the line.<br>
+            <br>
+            Because Hexen was structured less like Doom and more like an RPG, its eponymous map format also came with a series of features to support non-linear
+            progression structuring. Players could now travel more or less seamlessly between multiple maps contained within a "hub", often with a single map
+            containing multiple exits to different maps instead of a single exit that would take them to the next map. Other features brought by the Hexen
+            format include class-specific thing placement, "dormancy" for things and polyobjects.<br>
+            <br>
+            Hexen format is one of the less supported map formats, with ZDoom and its derivatives being among the only source ports to have implemented full
+            support for it. However, ACS is at least partially supported by Eternity Engine. Yet, in its early days, Hexen format ended up being widely used for wads
+            that targeted the ZDoom source port family specifically. That said, Hexen format is little more than a technical curiosity at this point - with the
+            advent of UDMF, which supports all features of the Hexen format and a bunch more, it makes more sense to use that over Hexen format unless you're making
+            a map for vanilla Hexen.<br>
+            <br>
+            <b>When to map in Hexen format?</b> If you're curious about it. UDMF is more advanced and thusly the better option, though.<br>
+            <b>Which port to test in?</b> (G)ZDoom<br>
+            <br><br>
+        </p>
+
+        <h3 id="udmf">UDMF format</h3>
+
+        <p class="mainText">
+            <strong>UDMF format</strong> is one of the newest map formats to appear. It expands greatly upon the feature set provided by Hexen format and provides
+            very fine-grained control over almost any property imaginable. Only in UDMF is it possible to do independent brightness values on lines, sector reflection
+            without ACS, independent texture scaling and rotation and a bunch of other things that'd make this single paragraph way too long if I listed them all off.<br>
+            <br>
+            The fundamental difference between UDMF and other map formats is that UDMF stores the map data into a single lump called TEXTMAP, whereas other formats store
+            different map data, such as sector, thing and linedef data, into their own lumps. Nodes and compiled ACS code, however, are still stored into their own lumps.<br>
+            <br>
+            Support for the UDMF format is chiefly limited to the most advanced source ports, namely the ZDoom family and Eternity Engine. Due to the different design
+            philosophies between the two, a UDMF map made for GZDoom will most likely not work in Eternity and vice versa. This is because UDMF implements namespaces to
+            translate the line actions and whatnot for a specific source port.<br>
+            <br>
+            Because UDMF is an advanced format, it's generally not recommended for beginners, as the sheer number of options available can get overwhelming. It's a good
+            idea to start with one of the less advanced formats and only give UDMF a spin when you're comfortable in your map editor of choice.<br>
+            <br>
+            <b>When to map in UDMF format?</b> When you know your way around the editor and want to make something advanced.<br>
+            <b>Which port to test in?</b> GZDoom / Eternity (depending on target port)<br>
+            <br><br>
+            That concludes this map format guide.
+        </p>
+		
+		<div id="footerPlaceholder">
+			<script type="text/javascript" src="../embedScripts.js"></script>
+			<script type="text/javascript">
+				EmbedFooter();
+			</script>
+			<noscript>There should be a footer here... Please enable scripts in your adblocker or whatever.</noscript>
+		</div>
+	</body>
+</html>
