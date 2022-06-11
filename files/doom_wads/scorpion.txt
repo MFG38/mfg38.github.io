@@ -1,0 +1,106 @@
+===========================================================================
+Advanced engine needed  : Boom-compatible
+Primary purpose         : Single play
+===========================================================================
+Title                   : Scorpion
+Filename                : scorpion.wad
+Release date            : 2022-06-11
+Author                  : Santtu "MFG38" Pesonen
+Email Address           : mfg38thelps@aol.com
+
+Description             : Scorpion is a 17-level collection of
+                          Boom-compatible slaughter/gimmick speedmaps. 'Nuff
+                          said.
+
+Additional Credits to   : See below.
+===========================================================================
+* What is included *
+
+New levels              : 17
+Sounds                  : Yes
+Music                   : Yes
+Graphics                : Yes
+Dehacked/BEX Patch      : Yes
+Demos                   : No
+Other                   : No
+Other files required    : None
+
+
+* Play Information *
+
+Game                    : Doom 2
+Map #                   : MAP01-16 + MAP31
+Single Player           : Designed for
+Cooperative 2-4 Player  : No
+Deathmatch 2-4 Player   : No
+Other game styles       : None
+Difficulty Settings     : Not implemented
+
+
+* Construction *
+
+Base                    : New from scratch
+Build Time              : About a week
+Editor(s) used          : Ultimate Doom Builder, SLADE3, Doom Writer,
+                          Paint.net, WhackEd4, Notepad(++)
+Known Bugs              : Miscellaneous slime trails and other minor visual
+                          glitches.
+May Not Run With        : non-Boom-compatible ports
+Tested With             : PrBoom+ 2.5.1.4, dsda-doom 0.24.1, GZDoom 4.7.1
+
+
+* Credits *
+
+MUSIC
+=====
+Title: "Reflections of the Past" from Metroid: Zero Mission
+Intermission: "Bonus Stage 2" from Sonic & Knuckles
+
+MAP01: "Death Egg Zone" from Sonic the Hedgehog 2
+MAP02: "Dragon God" from Chrono Cross
+MAP03: Remix of "Robo's Theme" from Chrono Trigger in the style of Rick Astley
+MAP04: "Candy Chateau" from Rayman
+MAP05: "Esoteric Aneurysm" by MFG38
+MAP06: "The Joy of Life" from Resident Evil
+MAP07: "Voices" by Ribbiks
+MAP08: "N. Gin" from Crash Bandicoot 2
+MAP09: "Yackity Cackity" by MFG38
+MAP10: "SA-X Arrival" from Metroid Fusion
+MAP11: "All of Thy Yes" by MFG38
+MAP12: "Italia Noir" by Ribbiks
+MAP13: "Cavern of Ice" from Arcana
+MAP14: "Shukran's Theme" from Arabian Nights
+MAP15: "Invincibility" from Sonic CD
+MAP16: "Nobody Told Me About id" from Doom
+MAP31: "J-E-N-O-V-A" from Final Fantasy 7
+
+
+TEXTURES
+========
+Deconstruct Texture Pack by stecki
+OTEX by Ola "ukiro" Björling
+MFG_MUG texture by MFG38
+
+
+SOUNDS
+======
+DSBOSSIT sound by MFG38
+
+
+* Copyright / Permissions *
+
+This work is licensed under the Creative Commons
+Attribution-NonCommercial-NoDerivatives 4.0 International License. To view a
+copy of this license, visit http://creativecommons.org/licenses/by-nc-nd/4.0/
+
+You are free to copy and redistribute the material in any medium or format.
+If you do so, you must give appropriate credit, provide a link to the
+license, and indicate if changes were made. You may do so in any reasonable
+manner, but not in any way that suggests the licensor endorses you or your
+use. You may not use the material for commercial purposes. If you remix,
+transform, or build upon the material, you may not distribute the modified
+material.
+
+* Where to get the file that this text file describes *
+
+Web sites: https://mfg38.github.io/
