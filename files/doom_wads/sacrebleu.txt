@@ -1,0 +1,66 @@
+===========================================================================
+Advanced engine needed  : Limit-removing
+Primary purpose         : Single play
+===========================================================================
+Title                   : Sacre Bleu
+Filename                : sacrebleu.wad
+Release date            : 2022-09-24
+Author                  : Santtu "MFG38" Pesonen
+Email Address           : mfg38thelps@aol.com
+
+Description             : A 1-hour speedmap I made as a test for a custom
+                          palette. 'Nuff said.
+
+Additional Credits to   : Authors of cc4-tex, from which I sourced the few
+                          custom textures used.
+===========================================================================
+* What is included *
+
+New levels              : 1
+Sounds                  : No
+Music                   : Yes
+Graphics                : No
+Dehacked/BEX Patch      : Yes
+Demos                   : No
+Other                   : No
+Other files required    : None
+
+
+* Play Information *
+
+Game                    : Doom 2
+Map #                   : MAP01
+Single Player           : Designed for
+Cooperative 2-4 Player  : No
+Deathmatch 2-4 Player   : No
+Other game styles       : None
+Difficulty Settings     : Not implemented
+
+
+* Construction *
+
+Base                    : New from scratch
+Build Time              : 1 hour + compilation time
+Editor(s) used          : Ultimate Doom Builder, SLADE3, Doom Writer,
+                          Paint.net, WhackEd4
+Known Bugs              : Should be bug-free.
+May Not Run With        : DOSBox or Chocolate Doom
+Tested With             : Crispy Doom 5.10.3, GZDoom 4.8.2
+
+
+* Copyright / Permissions *
+
+This work is licensed under the Creative Commons Attribution-NonCommercial
+4.0 International License. To view a copy of this license, visit
+http://creativecommons.org/licenses/by-nc/4.0/
+
+You are free to copy and redistribute the material in any medium or format;
+and remix, transform, and build upon the material. If you do so, you must
+give appropriate credit, provide a link to the license, and indicate if
+changes were made. You may do so in any reasonable manner, but not in any way
+that suggests the licensor endorses you or your use. You may not use the
+material for commercial purposes.
+
+* Where to get the file that this text file describes *
+
+Web sites: https://mfg38.github.io/
