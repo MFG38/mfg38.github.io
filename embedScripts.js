@@ -7,7 +7,7 @@ function EmbedNavbar () {
 		'	<a href="../midi_index.html">MIDIs</a>' +
 		'	<a href="../software_index.html">Software</a>' +
 		'	<a href="../tutorial_index.html">Tutorials</a>' +
-		'	<a href="../hardware_index.html">The hardware</a>' +
+		'	<a href="../hardware.html">The hardware</a>' +
 		'</nav>';
 }
 
