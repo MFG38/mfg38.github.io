@@ -69,6 +69,18 @@ h2.tutorialTitle
 	text-align: center;
 }
 
+h2.PCName
+{
+	color: #FFFFF7;
+	font-family: monospace;
+	font-size: 22px;
+	width: 30%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
 h3
 {
 	color: #FFFFF7;
@@ -185,6 +197,19 @@ table.gameInfo
 	font-size: 14px;
 	width: 40%;
 	margin: auto;
+}
+
+table.specList
+{
+	table-layout: fixed;
+	color: #FFFFF7;
+	font-family: sans-serif;
+	font-size: 14px;
+	width: 30%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: auto;
+	margin-bottom: 24px;
 }
 
 .downloadLinks h3
