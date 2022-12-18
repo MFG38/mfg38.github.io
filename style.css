@@ -265,6 +265,11 @@ img.centeredImage
 	font-size: 17px !important;
 }
 
+.smallText
+{
+	font-size: 12px !important;
+}
+
 .codeBlock
 {
 	width: 50%;
