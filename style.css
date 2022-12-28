@@ -99,6 +99,7 @@ h4
 	font-family: monospace;
 	font-size: 16px;
 	font-weight: normal;
+	margin-bottom: 0px;
 }
 
 a
@@ -224,7 +225,7 @@ footer
 {
 	text-align: center;
 	margin-top: 20px;
-	margin-bottom: 32px;
+	margin-bottom: 20px;
 }
 
 code
