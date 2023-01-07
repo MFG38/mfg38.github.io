@@ -15,7 +15,7 @@ function EmbedFooter () {
 	document.getElementById('footerPlaceholder').innerHTML =
 		'<footer>' +
 		'	<h4>&copy; 2021-2023 Santtu Pesonen</h4><br>' +
-		'	<a href="https://www.youtube.com/channel/UCqpJuZ_s57cmA2lbV29JFWQ"><img src="../images/buttons/footer_yt.png" width="40" height="40"></a>' +
+		'	<a href="https://www.youtube.com/@madfinnishgamer38"><img src="../images/buttons/footer_yt.png" width="40" height="40"></a>' +
 		'	<a href="https://twitter.com/TheMFG38"><img src="../images/buttons/footer_twitter.png" width="40" height="40"></a>' +
 		'	<a href="https://www.twitch.tv/mfg38"><img src="../images/buttons/footer_twitch.png" width="40" height="40"></a>' +
 		'	<a href="https://github.com/MFG38"><img src="../images/buttons/footer_github.png" width="40" height="40"></a>' +
