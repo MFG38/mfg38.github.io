@@ -1,0 +1,87 @@
+===========================================================================
+Advanced engine needed  : Boom-compatible
+Primary purpose         : Single play
+===========================================================================
+Title                   : Mourn
+Filename                : mourn.wad
+Release date            : 2023-01-13
+Author                  : Santtu "MFG38" Pesonen
+Email Address           : mfg38thelps@aol.com
+
+Description             : Mourn is a Boom-compatible slaughtermap powered by
+                          the ever-so-impressive OTEX. The map takes place in
+                          something resembling a volcanic mountain area with
+                          a few abstract tech-like structures built into it.
+                          Who put them there? What purpose do they serve?
+                          Nobody knows.
+                          
+                          This map was my first attempt at building a serious
+                          slaughtermap at a large, non-speedmap scale. While
+                          slaughter gameplay was largely the intention, the
+                          combat encounters still offer some variety, with a
+                          couple more gimmicky fights to spice things up a
+                          little. It may not be continuous streams of
+                          enemies, but this is still one of the harder maps
+                          I've made, if not the hardest so far. Designing the
+                          fights for this map was a lot of fun and definitely
+                          a learning experience in more ways than one. The
+                          experience is accompanied by a 10-minute
+                          prog-inspired MIDI epic of the same name, composed
+                          by none other than Yours Truly.
+
+Additional Credits to   : Ola "ukiro" Björling (author of OTEX)
+                          thelamp (for playtesting)
+                          Bridgeburner and Insane_Gazebo (for the
+                          inspiration)
+===========================================================================
+* What is included *
+
+New levels              : 1
+Sounds                  : No
+Music                   : Yes
+Graphics                : Yes
+Dehacked/BEX Patch      : Yes
+Demos                   : No
+Other                   : No
+Other files required    : None
+
+
+* Play Information *
+
+Game                    : Doom 2
+Map #                   : MAP01
+Single Player           : Designed for
+Cooperative 2-4 Player  : No
+Deathmatch 2-4 Player   : No
+Other game styles       : None
+Difficulty Settings     : Yes
+
+
+* Construction *
+
+Base                    : New from scratch
+Build Time              : About a year on and off (mostly off)
+Editor(s) used          : Ultimate Doom Builder, SLADE3, WhackEd4, Doom
+                          Writer, Notepad
+Known Bugs              : Miscellaneous slime trails.
+May Not Run With        : non-Boom-compatible ports
+Tested With             : dsda-doom 0.24.3 & 0.25.2 (-cl9), GZDoom 4.8.2
+
+
+* Copyright / Permissions *
+
+This work is licensed under the Creative Commons Attribution 4.0
+International License. To view a copy of this license, visit
+http://creativecommons.org/licenses/by/4.0/
+
+You are free to copy and redistribute the material in any medium or format;
+and remix, transform, and build upon the material for any purpose, even
+commercially. If you do so, you must give appropriate credit, provide a link
+to the license, and indicate if changes were made. You may do so in any
+reasonable manner, but not in any way that suggests the licensor endorses you
+or your use.
+
+
+* Where to get the file that this text file describes *
+
+Web sites: https://mfg38.github.io/
