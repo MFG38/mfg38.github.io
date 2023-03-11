@@ -1,0 +1,66 @@
+===========================================================================
+Advanced engine needed  : Boom-compatible
+Primary purpose         : Single play
+===========================================================================
+Title                   : Mouse Crap
+Filename                : mousecrap.wad
+Release date            : 2023-03-11
+Author                  : Santtu "MFG38" Pesonen
+Email Address           : mfg38thelps@aol.com
+
+Description             : Just a 1-hour speedmap.
+
+Additional Credits to   : Mark Klem (map uses the MIDI "Basilisk" by him)
+===========================================================================
+* What is included *
+
+New levels              : 1
+Sounds                  : No
+Music                   : Yes
+Graphics                : Yes
+Dehacked/BEX Patch      : Yes
+Demos                   : No
+Other                   : No
+Other files required    : None
+
+
+* Play Information *
+
+Game                    : Doom 2
+Map #                   : MAP01
+Single Player           : Designed for
+Cooperative 2-4 Player  : No
+Deathmatch 2-4 Player   : No
+Other game styles       : None
+Difficulty Settings     : Not implemented
+
+
+* Construction *
+
+Base                    : New from scratch
+Build Time              : An hour (plus some minutes for gameplay tweaking)
+Editor(s) used          : Ultimate Doom Builder, SLADE3, WhackEd4, Doom
+                          Writer, Notepad
+Known Bugs              : Should be bug-free.
+May Not Run With        : non-Boom-compatible ports
+Tested With             : dsda-doom 0.25.2, GZDoom 4.8.2
+
+
+* Copyright / Permissions *
+
+This work is licensed under the Creative Commons
+Attribution-NonCommercial-ShareAlike 4.0 International License. To view a
+copy of this license, visit http://creativecommons.org/licenses/by-nc-sa/4.0/
+
+You are free to copy and redistribute the material in any medium or format;
+and remix, transform, and build upon the material. If you do so, you must
+give appropriate credit, provide a link to the license, and indicate if
+changes were made. You may do so in any reasonable manner, but not in any way
+that suggests the licensor endorses you or your use. You may not use the
+material for commercial purposes. If you remix, transform, or build upon the
+material, you must distribute your contributions under the same license as
+the original.
+
+* Where to get the file that this text file describes *
+
+Web sites: https://mfg38.github.io/
