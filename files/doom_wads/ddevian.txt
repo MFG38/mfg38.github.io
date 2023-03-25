@@ -77,6 +77,4 @@ contributions under the same license as the original.
 
 * Where to get the file that this text file describes *
 
-The Usual: ftp://archives.gamers.org/pub/idgames/ and mirrors
-Web sites: 
-FTP sites: 
+Web sites: https://mfg38.github.io/
