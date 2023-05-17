@@ -1,0 +1,66 @@
+===========================================================================
+Advanced engine needed  : Boom-compatible
+Primary purpose         : Single play
+===========================================================================
+Title                   : Blanket Union Topmost Transcriptions BBQ
+Filename                : buttbbq.wad
+Author                  : Santtu "MFG38" Pesonen
+Email Address           : mfg38thelps@aol.com
+
+Description             : A speedmap that's either a pacifist map or a
+                          deathtrap. You'll see what I mean.
+
+Additional Credits to   : The Simpsons
+===========================================================================
+* What is included *
+
+New levels              : 1
+Sounds                  : Yes
+Music                   : No
+Graphics                : Yes
+Dehacked/BEX Patch      : No
+Demos                   : No
+Other                   : No
+Other files required    : None
+
+
+* Play Information *
+
+Game                    : Doom 2
+Map #                   : MAP01
+Single Player           : Designed for
+Cooperative 2-4 Player  : No
+Deathmatch 2-4 Player   : No
+Other game styles       : None
+Difficulty Settings     : Not implemented
+
+
+* Construction *
+
+Base                    : New from scratch
+Build Time              : barely any
+Editor(s) used          : the usual
+Known Bugs              : You can apparently be incinerated out of bounds
+                          somehow.
+May Not Run With        : Might run in vanilla Doom but best to use a
+                          Boom-compatible port just in case.
+Tested With             : dsda-doom 0.25.2
+
+
+* Copyright / Permissions *
+
+This work is licensed under the Creative Commons
+Attribution-NonCommercial-NoDerivatives 4.0 International License. To view a
+copy of this license, visit http://creativecommons.org/licenses/by-nc-nd/4.0/
+
+You are free to copy and redistribute the material in any medium or format.
+If you do so, you must give appropriate credit, provide a link to the
+license, and indicate if changes were made. You may do so in any reasonable
+manner, but not in any way that suggests the licensor endorses you or your
+use. You may not use the material for commercial purposes. If you remix,
+transform, or build upon the material, you may not distribute the modified
+material.
+
+* Where to get the file that this text file describes *
+
+Web sites: https://mfg38.github.io
