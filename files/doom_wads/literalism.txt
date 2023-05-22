@@ -67,4 +67,5 @@ material.
 
 * Where to get the file that this text file describes *
 
+The Usual: ftp://archives.gamers.org/pub/idgames/ and mirrors
 Web sites: https://mfg38.github.io/
