@@ -1,0 +1,65 @@
+===========================================================================
+Advanced engine needed  : Limit-removing
+Primary purpose         : Single play
+===========================================================================
+Title                   : Icon of Unnecessarily Extreme Pacifism
+Filename                : iouep.wad
+Release date            : 2023-08-16
+Author                  : Santtu "MFG38" Pesonen
+Email Address           : mfg38thelps@aol.com
+
+Description             : A map idea so ridiculous it borders on stupidity.
+                          Lure a monster into a teleporter and have it
+                          telefrag the IoS. 'Nuff said.
+
+Additional Credits to   : eh
+===========================================================================
+* What is included *
+
+New levels              : 1
+Sounds                  : No
+Music                   : No
+Graphics                : Yes
+Dehacked/BEX Patch      : Yes
+Demos                   : No
+Other                   : No
+Other files required    : None
+
+
+* Play Information *
+
+Game                    : Doom 2
+Map #                   : MAP30
+Single Player           : Designed for
+Cooperative 2-4 Player  : No
+Deathmatch 2-4 Player   : No
+Other game styles       : None
+Difficulty Settings     : Not implemented
+
+
+* Construction *
+
+Base                    : New from scratch
+Build Time              : 15 minutes or so
+Editor(s) used          : Ultimate Doom Builder, SLADE3, WhackEd4, Doom
+                          Writer
+May Not Run With        : vanilla or Chocolate Doom
+Tested With             : Crispy Doom 6.0.0
+
+
+* Copyright / Permissions *
+
+This work is licensed under the Creative Commons Attribution-NonCommercial
+4.0 International License. To view a copy of this license, visit
+http://creativecommons.org/licenses/by-nc/4.0/
+
+You are free to copy and redistribute the material in any medium or format;
+and remix, transform, and build upon the material. If you do so, you must
+give appropriate credit, provide a link to the license, and indicate if
+changes were made. You may do so in any reasonable manner, but not in any way
+that suggests the licensor endorses you or your use. You may not use the
+material for commercial purposes.
+
+* Where to get the file that this text file describes *
+
+Web sites: https://mfg38.github.io/
