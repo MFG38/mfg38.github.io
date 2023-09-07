@@ -33,7 +33,7 @@ Sounds                  : No
 Music                   : Yes
 Graphics                : Yes
 Dehacked/BEX Patch      : No
-Demos                   : No
+Demos                   : Yes
 Other                   : UMAPINFO
 Other files required    : None
 
@@ -53,10 +53,11 @@ Difficulty Settings     : Yes
 
 Base                    : New from scratch
 Build Time              : long enough
-Editor(s) used          : SLADE3, Doom Writer, Notepad, DoomMake
+Editor(s) used          : SLADE3, Doom Writer, Notepad, DoomMake and whatever map
+                          editor each participant used
 Known Bugs              : Hopefully none.
 May Not Run With        : WILL NOT work in anything that doesn't support MBF21.
-Tested With             : dsda-doom 0.25.2 (cl21), GZDoom 4.8.2
+Tested With             : dsda-doom 0.25.6 (cl21), GZDoom 4.8.2
 
 
 * Copyright / Permissions *
