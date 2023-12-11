@@ -1,0 +1,70 @@
+===========================================================================
+Advanced engine needed  : Boom-compatible
+Primary purpose         : Single play
+===========================================================================
+Title                   : 12 Lines of Christmas
+Filename                : 12lxmas.wad
+Release date            : 2023-12-11
+Author                  : Santtu "MFG38" Pesonen
+Email Address           : mfg38thelps@aol.com
+
+Description             : A stupid idea for a Christmas-themed shitpost wad
+                          turned into a Christmas-themed shitpost wad.
+                          'Nuff said.
+
+Additional Credits to   : Authors of the Celtic Shrine texture pack, Christmas
+                          sprite pack and xmas-mus.wad, from where this wad
+                          uses some stuff.
+===========================================================================
+* What is included *
+
+New levels              : 7
+Sounds                  : Yes
+Music                   : Yes
+Graphics                : Yes
+Dehacked/BEX Patch      : Yes
+Demos                   : No
+Other                   : No
+Other files required    : None
+
+
+* Play Information *
+
+Game                    : Doom 2
+Map #                   : MAP01-07
+Single Player           : Designed for
+Cooperative 2-4 Player  : No
+Deathmatch 2-4 Player   : No
+Other game styles       : None
+Difficulty Settings     : Not implemented
+
+
+* Construction *
+
+Base                    : New from scratch
+Build Time              : Like 2 hours I guess?
+Editor(s) used          : Ultimate Doom Builder, SLADE3, DoomMake
+Known Bugs              : Hopefully none.
+May Not Run With        : Most maps will probably also work in a limit-removing
+                          port except MAP04 and MAP07.
+Tested With             : dsda-doom 0.25.6 (cl9)
+
+
+* Copyright / Permissions *
+
+This work is licensed under the Creative Commons Attribution-NonCommercial-
+NoDerivatives 4.0 International License. To view a copy of this license, visit
+https://creativecommons.org/licenses/by-nc-nd/4.0/
+
+You are free to copy and redistribute the material in any medium or format
+for any purpose, EXCEPT commercially. If you do so, you must give appropriate
+credit, provide a link to the license, and indicate if changes were made. You
+may do so in any reasonable manner, but not in any way that suggests the
+licensor endorses you or your use. You may NOT use the material for commercial
+purposes. If you remix, transform, or build upon the material, you may NOT 
+distribute the modified material.
+
+
+* Where to get the file that this text file describes *
+
+Web sites: https://mfg38.github.io/
