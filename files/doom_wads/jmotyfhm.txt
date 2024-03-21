@@ -1,0 +1,66 @@
+===========================================================================
+Advanced engine needed  : MBF21-compatible
+Primary purpose         : Single play
+===========================================================================
+Title                   : Jack Me Off to Your Favorite Horror Movie
+Filename                : jmotyfhm.wad
+Release date            : 2024-03-21
+Author                  : Santtu "MFG38" Pesonen
+Email Address           : mfg38thelps@aol.com
+
+Description             : An MBF21-compatible pacifist speedmap. 'Nuff said.
+
+===========================================================================
+* What is included *
+
+New levels              : 1
+Sounds                  : No
+Music                   : Yes
+Graphics                : Yes
+Dehacked/BEX Patch      : Yes
+Demos                   : No
+Other                   : No
+Other files required    : None
+
+
+* Play Information *
+
+Game                    : Doom 2
+Map #                   : MAP01
+Single Player           : Designed for
+Cooperative 2-4 Player  : No
+Deathmatch 2-4 Player   : No
+Other game styles       : None
+Difficulty Settings     : Not implemented
+
+
+* Construction *
+
+Base                    : New from scratch
+Build Time              : Less than 2 hours (wasn't exactly tracking time on
+                          this one)
+Editor(s) used          : Ultimate Doom Builder, SLADE3, WhackEd4, Doom
+                          Writer
+Known Bugs              : None found in testing.
+May Not Run With        : Any port that doesn't support MBF21 features
+Tested With             : dsda-doom 0.27.5 (cl21)
+
+
+* Copyright / Permissions *
+
+This work is licensed under the Creative Commons
+Attribution-NonCommercial-ShareAlike 4.0 International License. To view a
+copy of this license, visit http://creativecommons.org/licenses/by-nc-sa/4.0/
+
+You are free to copy and redistribute the material in any medium or format;
+and remix, transform, and build upon the material. If you do so, you must
+give appropriate credit, provide a link to the license, and indicate if
+changes were made. You may do so in any reasonable manner, but not in any way
+that suggests the licensor endorses you or your use. You may not use the
+material for commercial purposes. If you remix, transform, or build upon the
+material, you must distribute your contributions under the same license as
+the original.
+
+* Where to get the file that this text file describes *
+
+Web sites: https://mfg38.github.io/
