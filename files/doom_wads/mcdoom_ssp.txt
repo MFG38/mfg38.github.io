@@ -1,0 +1,98 @@
+===========================================================================
+Advanced engine needed  : MBF21-compatible
+Primary purpose         : Single play
+===========================================================================
+Title                   : McDoomguy's Slaughterific Sample Platter (RC1)
+Filename                : mcdoom_ssp.wad
+Release date            : 2024-04-07
+Author                  : Various
+Email Address           : mfg38thelps@aol.com
+
+Description             : Welcome to McDoomguy's! What can I get you?
+                          You're not sure? Well then, might I interest you
+                          in our Slaughterific Sample Platter? It's our
+                          award-winning 42-course meal crafted by a
+                          selection of chefs, world-famous veterans and
+                          new tryouts alike. Whatever it is you're craving
+                          today, you're bound to find something to satisfy
+                          your hunger in there. And somehow it doesn't cost
+                          anything! Seriously, why didn't we put a price tag
+                          on the thing? It's literally our most famous
+                          dish and it's slowly bankrupting us...
+
+                          Oh right, you probably wanna know what the entire
+                          gimmick here was. Well, the participating chefs
+                          had a selection of 12 different design restrictions
+                          on offer, of which they had to use at least 3.
+                          At least two out of the following:
+                          - 100 lines or less
+                          - 10 sectors or less
+                          - 3 textures and 3 flats
+                          - 1024x1024 or smaller map size
+                          - No orthogonal lines
+                          - Only 1 monster type
+                          - Grid size of 64
+
+                          And one out of these:
+                          - Pacifist map
+                          - Monsterless puzzle/platforming map
+                          - Hitscan enemies only
+                          - A bunch of explosive barrels
+                          - Sector special 10
+
+Additional Credits to   : See mcdoomcred.txt.
+===========================================================================
+* What is included *
+
+New levels              : 42
+Sounds                  : No
+Music                   : Yes
+Graphics                : Yes
+Dehacked/BEX Patch      : Yes
+Demos                   : No
+Other                   : UMAPINFO, PLAYPAL/COLORMAP
+Other files required    : None
+
+
+* Play Information *
+
+Game                    : Doom 2
+Map #                   : MAP01-42
+Single Player           : Designed for
+Cooperative 2-4 Player  : No
+Deathmatch 2-4 Player   : No
+Other game styles       : No
+Difficulty Settings     : Yes but only in a few maps
+
+
+* Construction *
+
+Base                    : New from scratch
+Build Time              : About 1.5 months from announcement to initial release
+Editor(s) used          : Paint.net, Doom Writer, DoomMake, map editor of each
+                          participant's choice
+Known Bugs              : Some maps especially in Episode 3 might be broken in
+                          GZDoom.
+May Not Run With        : Ports that don't support MBF21 features
+Tested With             : dsda-doom 0.27.5 (cl21)
+
+
+* Copyright / Permissions *
+
+This work is licensed under the Creative Commons Attribution-NonCommercial-
+ShareAlike 4.0 International License. To view a copy of this license, visit
+https://creativecommons.org/licenses/by-nc-sa/4.0/
+
+You are free to copy and redistribute the material in any medium or format;
+and remix, transform, and build upon the material for any purpose, EXCEPT
+commercially. If you do so, you must give appropriate credit, provide a link
+to the license, and indicate if changes were made. You may do so in any
+reasonable manner, but not in any way that suggests the licensor endorses you
+or your use. You may NOT use the material for commercial purposes. If you 
+remix, transform, or build upon the material, you MUST distribute your 
+contributions under the same license as the original.
+
+
+* Where to get the file that this text file describes *
+
+Web sites: https://mfg38.github.io/
