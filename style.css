@@ -12,6 +12,15 @@ p
 	margin: auto;
 }
 
+ul
+{
+	color: #e2e0ef;
+	font-family: sans-serif;
+	font-size: 15px;
+	width: 65%;
+	margin: auto;
+}
+
 noscript
 {
 	color: #e2e0ef;
