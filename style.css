@@ -3,16 +3,7 @@ body
 	background-color: #131624;
 }
 
-p
-{
-	color: #e2e0ef;
-	font-family: sans-serif;
-	font-size: 15px;
-	width: 65%;
-	margin: auto;
-}
-
-ul
+p, ul
 {
 	color: #e2e0ef;
 	font-family: sans-serif;
@@ -172,12 +163,7 @@ th.colTitle
 	width: 60%;
 }
 
-th.colIwad
-{
-	width: 16%;
-}
-
-th.colMaps
+th.colIwad, th.colMaps
 {
 	width: 16%;
 }
@@ -202,17 +188,7 @@ th.colMIDILength
 	width: 8%;
 }
 
-table.wadInfo
-{
-	table-layout: fixed;
-	color: #e2e0ef;
-	font-family: sans-serif;
-	font-size: 14px;
-	width: 40%;
-	margin: auto;
-}
-
-table.gameInfo
+table.wadInfo, table.gameInfo
 {
 	table-layout: fixed;
 	color: #e2e0ef;
