@@ -2,9 +2,9 @@
 Advanced engine needed  : MBF21-compatible
 Primary purpose         : Single play
 ===========================================================================
-Title                   : McDoomguy's Slaughterific Sample Platter (RC5)
+Title                   : McDoomguy's Slaughterific Sample Platter
 Filename                : mcdoom_ssp.wad
-Release date            : 2024-04-25
+Release date            : 2024-06-08
 Author                  : Various
 Email Address           : mfg38thelps@aol.com
 
