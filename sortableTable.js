@@ -54,13 +54,13 @@ function SortTable(table_id, n) {
                 }
             } else {
                 if(dir == "asc") {
-                    if(x.innerHTML.toLowerCase() > y.innerHTML.toLowerCase()) {
+                    if(x.innerText > y.innerText) {
                         shouldSwitch = true;
                         break;
                     }
                 }
                 else if(dir == "desc") {
-                    if(x.innerHTML.toLowerCase() < y.innerHTML.toLowerCase()) {
+                    if(x.innerText < y.innerText) {
                         shouldSwitch = true;
                         break;
                     }
