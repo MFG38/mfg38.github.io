@@ -1,6 +1,6 @@
 function getTrackLength(n) {
-    let min_and_sec = n.split(':');
-
+    let min_and_sec = n.trim().split(':');
+    
     var min = parseInt(min_and_sec[0], 10);
     var sec = parseInt(min_and_sec[1], 10);
     var totalLen = (min * 60) + sec;
@@ -23,27 +23,43 @@ function SortTable(table_id, n) {
             x = rows[i].getElementsByTagName("td")[n];
             y = rows[i+1].getElementsByTagName("td")[n];
 
-            if((table == "ost" || table == "cpMidis" || table == "other") && n == 2) {
-                if(dir = "asc") {
-                    if(Number(getTrackLength(x.innerHTML)) > Number(getTrackLength(y.innerHTML))) {
+            if((table_id === "ost" || table_id === "cpMidis" || table_id === "other") && n === 2) {
+                let xLen = Number(getTrackLength(x.innerHTML))
+                let yLen = Number(getTrackLength(y.innerHTML))
+
+                if(dir == "asc") {
+                    if(xLen > yLen) {
                         shouldSwitch = true;
                         break;
                     }
                 }
-                else if(dir = "desc") {
-                    if(Number(getTrackLength(x.innerHTML)) < Number(getTrackLength(y.innerHTML))) {
+                else if(dir == "desc") {
+                    if(xLen < yLen) {
+                        shouldSwitch = true;
+                        break;
+                    }
+                }
+            } else if((table_id === "personal" || table_id === "community") && n === 3) {
+                if(dir == "asc") {
+                    if(Number(x.innerHTML) > Number(y.innerHTML)) {
+                        shouldSwitch = true;
+                        break;
+                    }
+                }
+                else if(dir == "desc") {
+                    if(Number(x.innerHTML) < Number(y.innerHTML)) {
                         shouldSwitch = true;
                         break;
                     }
                 }
             } else {
-                if(dir = "asc") {
+                if(dir == "asc") {
                     if(x.innerHTML.toLowerCase() > y.innerHTML.toLowerCase()) {
                         shouldSwitch = true;
                         break;
                     }
                 }
-                else if(dir = "desc") {
+                else if(dir == "desc") {
                     if(x.innerHTML.toLowerCase() < y.innerHTML.toLowerCase()) {
                         shouldSwitch = true;
                         break;
