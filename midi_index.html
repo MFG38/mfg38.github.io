@@ -30,12 +30,13 @@
 		
 		<h3>Original/bespoke MIDI soundtracks</h3>
 	
-		<table class="indexedList">
+		<table class="indexedList" id="ost">
 			<tbody>
+				<script type="text/javascript" src="sortableTable.js"></script>
 				<tr>
-					<th class="colMIDIName">Name</th>
-					<th class="colMIDIDesc">Made for</th>
-					<th class="colMIDILength">Length</th>
+					<th class="colMIDIName" onclick="SortTable('ost', 0)">Name</th>
+					<th class="colMIDIDesc" onclick="SortTable('ost', 1)">Made for</th>
+					<th class="colMIDILength" onclick="SortTable('ost', 2)">Length</th>
 				</tr>
 
 				<tr>
@@ -157,12 +158,13 @@
 		<br>
 		<h3>MIDIs for community projects</h3>
 		
-		<table class="indexedList">
+		<table class="indexedList" id="cpMidis">
+			<script type="text/javascript" src="sortableTable.js"></script>
 			<tbody>
 				<tr>
-					<th class="colMIDIName">Name</th>
-					<th class="colMIDIDesc">Made for</th>
-					<th class="colMIDILength">Length</th>
+					<th class="colMIDIName" onclick="SortTable('cpMidis', 0)">Name</th>
+					<th class="colMIDIDesc" onclick="SortTable('cpMidis', 1)">Made for</th>
+					<th class="colMIDILength" onclick="SortTable('cpMidis', 2)">Length</th>
 				</tr>
 				
 				<tr>
@@ -194,12 +196,13 @@
 		<br>
 		<h3>Other MIDIs</h3>
 		
-		<table class="indexedList">
+		<table class="indexedList" id="other">
+			<script type="text/javascript" src="sortableTable.js"></script>
 			<tbody>
 				<tr>
-					<th class="colMIDIName">Name</th>
-					<th class="colMIDIDesc">Description</th>
-					<th class="colMIDILength">Length</th>
+					<th class="colMIDIName" onclick="SortTable('other', 0)">Name</th>
+					<th class="colMIDIDesc" onclick="SortTable('other', 1)">Description</th>
+					<th class="colMIDILength" onclick="SortTable('other', 2)">Length</th>
 				</tr>
 				
 				<tr>

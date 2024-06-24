@@ -23,13 +23,14 @@
 		
 		<h3>Personal projects</h3>
 	
-		<table class="indexedList">
+		<table class="indexedList" id="personal">
+			<script type="text/javascript" src="sortableTable.js"></script>
 			<tbody>
 				<tr>
-					<th class="colYear">Year</th>
-					<th class="colTitle">Title</th>
-					<th class="colIwad">IWAD</th>
-					<th class="colMaps"># of Maps</th>
+					<th class="colYear" onclick="SortTable('personal', 0)">Year</th>
+					<th class="colTitle" onclick="SortTable('personal', 1)">Title</th>
+					<th class="colIwad" onclick="SortTable('personal', 2)">IWAD</th>
+					<th class="colMaps" onclick="SortTable('personal', 3)"># of Maps</th>
 				</tr>
 				
 				<tr>
@@ -170,13 +171,14 @@
 		<br>
 		<h3>Community projects</h3>
 	
-		<table class="indexedList">
+		<table class="indexedList" id="community">
+			<script type="text/javascript" src="sortableTable.js"></script>
 			<tbody>
 				<tr>
-					<th class="colYear">Year</th>
-					<th class="colTitle">Title</th>
-					<th class="colIwad">IWAD</th>
-					<th class="colMaps"># of Maps</th>
+					<th class="colYear" onclick="SortTable('community', 0)">Year</th>
+					<th class="colTitle" onclick="SortTable('community', 1)">Title</th>
+					<th class="colIwad" onclick="SortTable('community', 2)">IWAD</th>
+					<th class="colMaps" onclick="SortTable('community', 3)"># of Maps</th>
 				</tr>
 				
 				<tr>
