@@ -249,6 +249,15 @@ img.centeredImage
 	margin-right: auto;
 }
 
+img.caco
+{
+	display: inline;
+	margin: 4px;
+	vertical-align: middle;
+	position: relative;
+	top: -4px;
+}
+
 .mainText
 {
 	text-align: justify;
