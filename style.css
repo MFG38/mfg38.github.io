@@ -32,19 +32,7 @@ h2
 	margin-bottom: 10px;
 }
 
-h2.wadTitle
-{
-	color: #e2e0ef;
-	font-family: monospace;
-	font-size: 22px;
-	width: 40%;
-	margin-left: auto;
-	margin-right: auto;
-	margin-top: 10px;
-	margin-bottom: 10px;
-}
-
-h2.gameTitle
+h2.wadTitle, h2.gameTitle
 {
 	color: #e2e0ef;
 	font-family: monospace;
