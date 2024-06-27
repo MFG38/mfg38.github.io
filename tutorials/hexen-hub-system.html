@@ -29,7 +29,7 @@
 			In this tutorial, I'll cover the basics of setting up a hub system a la <strong>Hexen</strong>.<br>
 			<br>
 			To demonstrate the feature, I made a new map in GZDoom/UDMF format and threw together this small and ugly room with two FIREBLU "portals"
-			in UDB. (You don't necessarily have to use GZDoom/UDMF format - the feature is supported by some other source ports, as well as Hexen
+			in UDB. (You don't necessarily have to use GZDoom/UDMF format - the feature is supported by some other source ports, as well as vanilla Hexen
 			format.) The lines with the FIREBLU texture on them will act as the lines that teleport us to different maps.<br>
 			<br>
 			<img class="centeredImage" src="../images/tutorials/hexen-hub-system/hub1.jpg" alt="" width="960" height="520"><br><br>
@@ -53,7 +53,7 @@
 			In the map from which you want the player to teleport to the new location, you would then change the <strong>Tgt Player Start Arg0</strong>
 			argument of the acting line to the value of the arg0 you gave to the player start.<br>
 			<br>
-			In this example map I made, there are two player starts. One is on the ground, the other is on a ledge which the player wouldn't reach normally. The
+			In this example map I made (picture below), there are two player starts. One is on the ground, the other is on a ledge which the player wouldn't reach normally. The
 			player start on the ledge has an arg0 of 1, while the other one has an arg0 of 0. If I wanted the player to teleport onto the ledge from another map,
 			I'd look for the line I want to act as the "portal" and change the second argument of its line action to 1.<br>
 			<br>
