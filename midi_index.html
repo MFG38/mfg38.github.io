@@ -7,14 +7,17 @@
 		<meta name="author" content="Santtu Pesonen">
 		<meta name="keywords" content="Music, MIDI, Doom, Video Game, VGM">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<link rel="stylesheet" href="style.css">
+		<link rel="stylesheet" href="./css/style.css">
+		<script src="./js/embedScripts.js"></script>
+		<script src="./js/sortableTable.js"></script>
 	</head>
 	
 	<body>
 		<div id="navbarPlaceholder">
-			<script type="text/javascript" src="embedScripts.js"></script>
-			<script type="text/javascript">
-				EmbedNavbar();
+			<script>
+				document.addEventListener("DOMContentLoaded", function() {
+					EmbedNavbar();
+				});
 			</script>
 			<noscript>There should be a navbar here... Please enable scripts in your adblocker or whatever.</noscript>
 		</div>
@@ -33,7 +36,6 @@
 	
 		<table class="indexedList" id="ost">
 			<tbody>
-				<script type="text/javascript" src="sortableTable.js"></script>
 				<tr>
 					<th class="colMIDIName" onclick="SortTable('ost', 0)">Name</th>
 					<th class="colMIDIDesc" onclick="SortTable('ost', 1)">Made for</th>
@@ -160,7 +162,6 @@
 		<h3>MIDIs for community projects</h3>
 		
 		<table class="indexedList" id="cpMidis">
-			<script type="text/javascript" src="sortableTable.js"></script>
 			<tbody>
 				<tr>
 					<th class="colMIDIName" onclick="SortTable('cpMidis', 0)">Name</th>
@@ -198,7 +199,6 @@
 		<h3>Other MIDIs</h3>
 		
 		<table class="indexedList" id="other">
-			<script type="text/javascript" src="sortableTable.js"></script>
 			<tbody>
 				<tr>
 					<th class="colMIDIName" onclick="SortTable('other', 0)">Name</th>
@@ -468,9 +468,10 @@
 		</div>
 		
 		<div id="footerPlaceholder">
-			<script type="text/javascript" src="embedScripts.js"></script>
-			<script type="text/javascript">
-				EmbedFooter();
+			<script>
+				document.addEventListener("DOMContentLoaded", function() {
+					EmbedFooter();
+				});
 			</script>
 			<noscript>There should be a footer here... Please enable scripts in your adblocker or whatever.</noscript>
 		</div>

@@ -7,14 +7,16 @@
 		<meta name="author" content="Santtu Pesonen">
 		<meta name="keywords" content="Doom, Mapping, Tutorial, Hexagons, Doom Builder, UDB">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<link rel="stylesheet" href="../style.css">
+		<link rel="stylesheet" href="../css/style.css">
+		<script src="../js/embedScripts.js"></script>
 	</head>
 	
 	<body>
 		<div id="navbarPlaceholder">
-			<script type="text/javascript" src="../embedScripts.js"></script>
-			<script type="text/javascript">
-				EmbedNavbar();
+			<script>
+				document.addEventListener("DOMContentLoaded", function() {
+					EmbedNavbar();
+				});
 			</script>
 			<noscript>There should be a navbar here... Please enable scripts in your adblocker or whatever.</noscript>
 		</div>
@@ -40,9 +42,10 @@
 		</p>
 	
 		<div id="footerPlaceholder">
-			<script type="text/javascript" src="../embedScripts.js"></script>
-			<script type="text/javascript">
-				EmbedFooter();
+			<script>
+				document.addEventListener("DOMContentLoaded", function() {
+					EmbedFooter();
+				});
 			</script>
 			<noscript>There should be a footer here... Please enable scripts in your adblocker or whatever.</noscript>
 		</div>
