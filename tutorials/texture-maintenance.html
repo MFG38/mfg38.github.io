@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title>Texture maintenance: SLADE vs. DoomMake - MFG38's Fun Hub</title>
+		<meta charset="UTF-8">
+		<meta name="author" content="Santtu Pesonen">
+		<meta name="keywords" content="Doom, Textures, WAD Editing, SLADE, DoomTools, DoomMake">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="../css/style.css">
+		<script src="../js/embedScripts.js"></script>
+	</head>
+	
+	<body>
+		<div id="navbarPlaceholder">
+			<script>
+				document.addEventListener("DOMContentLoaded", function() {
+					EmbedNavbar();
+				});
+			</script>
+			<noscript>There should be a navbar here... Please enable scripts in your adblocker or whatever.</noscript>
+		</div>
+		
+		<div class="backToIndex">
+			<a href="../tutorial_index.html">Back to tutorial index</a>
+		</div>
+		
+		<h2 class="tutorialTitle">Texture maintenance: SLADE vs. DoomMake</h2>
+		
+		<p class="mainText">
+			This tutorial is dedicated to the art of texture maintenance in Doom wads, in particular as far as
+			choice of software is concerned. We'll be going over two popular choices for the task, <b>SLADE</b>
+			and <b>DoomMake</b>, and the pros and cons of each.<br>
+			<br>
+			There's a lot that goes into texture maintenance in wads - not only do you want to ensure that all
+			necessary custom textures are included, but preventing bloat and removing resources duplicated from
+			IWADs is also important. More often than not, SLADE is adequate for importing your custom textures
+			into a wad, and it can also remove duplicated IWAD resources with a single button click. However,
+			when it comes to removing resource bloat, SLADE's built-in tools can remove actually used textures
+			at best and completely break your wad at worst.<br>
+			<br>
+			Let me share an anecdote to illustrate: back when I was compiling <a href="../doom/literalism.html">Literalism</a>,
+			I ran into a problem at one point where SLADE removed one too many custom textures from the wad and
+			resulted in a wad that was completely unplayable. And when I say "completely unplayable", I mean it
+			did not even boot up - every source port I dared test it in errored out and refused to load the wad.
+			Ultimately, the issue led to me recompiling the entire wad from scratch when I was unable to fix it
+			by just editing the wad.<br>
+			<br>
+			Following that incident, I started looking into DoomMake, and when I found out just how good it is
+			when it comes to automating a lot of the compilation work, I started using it in my own projects.
+			Projects like <a href="../doom/ddevian.html">Devious Deviance</a>, <a href="../doom/mcdoomguys.html">McDoomguy's
+			Slaughterific Sample Platter</a> and the still-WIP <a href="../doom/coldwire.html">ColdWire</a> all
+			use(d) DoomMake as part of the workflow. At this point, the question probably lingers in your brain:
+			<b>why is DoomMake so good?</b> And the answer is simple: DoomMake is good because it does the texture
+			maintenance a <i>fuckton</i> more reliably than SLADE.<br>
+			<br>
+			While SLADE and DoomMake's methods for scanning the wads for (un)used textures are largely similar,
+			one of the advantages of DoomMake over SLADE is that it properly accounts for animated/switch textures.
+			With SLADE's texture cleanup tool, you still have to manually sift through the texture list and uncheck
+			any textures you want to keep before hitting the OK button, which has the potential to break your
+			animated textures - and, worse yet, your wad - if you forget to uncheck them. With texture packs like OTEX
+			with thousands of textures, doing so can become a major pain in the ass. DoomMake automates that
+			task by checking if a texture is animated and, if it is, grabbing the animation frames and embedding
+			them into the wad.<br>
+			<br>
+			DoomMake also automates the resource cleanup part of texture maintenance by scanning the maps <i>only</i>
+			for the textures they actually use and building the final wad with <i>only</i> those textures embedded.
+			Granted, SLADE does it very similarly, but there's still a manual step to it and, as explained above, it's
+			not the most foolproof method. I have yet to run into a case of a broken wad with DoomMake. DoomMake also
+			makes building a resource pack for your project easy, especially when combined with WadMerge - just build
+			the textures to combine all your custom textures into a single wad, or write a WadMerge script and run it
+			to get a single wad with textures, sprites, DeHackEd etc. all included. DoomMake's only downside is that
+			it doesn't have built-in functionality for scanning and removing duplicate IWAD resources, so it's a good
+			idea to open the wad up in SLADE and run the duplicate IWAD resource removal just in case.<br>
+			<br>
+			So, in summary, here are TL;DR versions of the pros and cons of both SLADE and DoomMake:<br>
+			<br>
+			<b>SLADE:</b><br><br>
+		</p>
+
+		<ul>
+			<li><b>PRO:</b> Built-in (and fairly reliable) duplicate IWAD resource removal</li>
+			<li><b>CON:</b> Not fully automated - some manual work is still involved</li>
+			<li><b>CON:</b> Can break your wad if you're not careful with the wad maintenance tools</li>
+			<br><br>
+		</ul>
+
+		<p class="mainText">
+			<b>DoomMake:</b><br><br>
+		</p>
+
+		<ul>
+			<li><b>PRO:</b> Almost fully automated texture compilation</li>
+			<li><b>PRO:</b> Stable and consistent</li>
+			<li><b>CON:</b> Lack of built-in duplicate IWAD resource removal</li>
+			<br><br>
+		</ul>
+		
+		<p class="mainText">
+			With all that considered, if you've never used DoomMake before, I whole-heartedly recommend you give it
+			a spin. I promise it'll make your wad compilation life easier in the long run. But that's not say DoomMake
+			is a full-on replacement for SLADE - the latter still has its place in your wad editing workflow. Once
+			you've built your final wad ready for submission to /idgames, open it in SLADE and run the duplicate IWAD
+			resource removal. Moreover, DoomMake integrates with SLADE for tasks such as modifying sprite offsets.<br>
+			<br>
+			That concludes this tutorial.
+		</p>
+
+		<div id="footerPlaceholder">
+			<script>
+				document.addEventListener("DOMContentLoaded", function() {
+					EmbedFooter();
+				});
+			</script>
+			<noscript>There should be a footer here... Please enable scripts in your adblocker or whatever.</noscript>
+		</div>
+	</body>
+</html>
