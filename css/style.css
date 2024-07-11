@@ -307,11 +307,30 @@ img.caco
 	margin-right: auto;
 }
 
-.backToIndex
+.backToIndex, .backToTop
 {
 	width: 65%;
 	margin-left: auto;
 	margin-right: auto;
 	margin-top: 10px;
 	margin-bottom: 10px;
+}
+
+.backToTop
+{
+	float: right;
+	position: fixed;
+}
+
+.backButtonsParent
+{
+	width: 65%;
+	text-align: center;
+	position: relative;
+	left: -10.5%;
+}
+
+.backButtonsChild
+{
+	display: inline-block;
 }
