@@ -23,7 +23,7 @@ function SortTable(table_id, n) {
             x = rows[i].getElementsByTagName("td")[n];
             y = rows[i+1].getElementsByTagName("td")[n];
 
-            if((table_id === "ost" || table_id === "cpMidis" || table_id === "other") && n === 2) {
+            if((table_id === "ostMidis" || table_id === "cpMidis" || table_id === "otherMidis") && n === 2) {
                 let xLen = Number(getTrackLength(x.innerHTML))
                 let yLen = Number(getTrackLength(y.innerHTML))
 
@@ -39,7 +39,7 @@ function SortTable(table_id, n) {
                         break;
                     }
                 }
-            } else if((table_id === "personal" || table_id === "community") && n === 3) {
+            } else if((table_id === "personalWads" || table_id === "communityWads") && n === 3) {
                 if(dir == "asc") {
                     if(Number(x.innerHTML) > Number(y.innerHTML)) {
                         shouldSwitch = true;
