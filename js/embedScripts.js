@@ -14,7 +14,7 @@ function EmbedNavbar () {
 function EmbedFooter () {
 	document.getElementById('footerPlaceholder').innerHTML =
 		'<footer>' +
-		'	<h4>&copy; 2021-2024 Santtu Pesonen</h4><br>' +
+		'	<h4>&copy; 2021-2025 Santtu Pesonen</h4><br>' +
 		'	<a href="https://www.youtube.com/@madfinnishgamer38"><img src="../images/buttons/footer_yt.png" width="40" height="40"></a>' +
 		'	<a href="https://twitter.com/TheMFG38"><img src="../images/buttons/footer_twitter.png" width="40" height="40"></a>' +
 		'	<a href="https://bsky.app/profile/mfg38.bsky.social"><img src="../images/buttons/footer_bsky.png" width="40" height="40"></a>' +
