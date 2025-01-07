@@ -23,7 +23,7 @@ function SortTable(table_id, n) {
             x = rows[i].getElementsByTagName("td")[n];
             y = rows[i+1].getElementsByTagName("td")[n];
 
-            if((table_id === "ostMidis" || table_id === "otherMidis") && n === 2) {
+            if((table_id === "ostMidis" || table_id === "remixes" || table_id === "otherMidis") && n === 2) {
                 let xLen = Number(getTrackLength(x.innerHTML))
                 let yLen = Number(getTrackLength(y.innerHTML))
 
