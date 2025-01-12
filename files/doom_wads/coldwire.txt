@@ -1,0 +1,153 @@
+===========================================================================
+Archive Maintainer      : Please put in levels/doom2/Ports/
+Advanced engine needed  : Limit-removing
+Primary purpose         : Single play / Co-op
+===========================================================================
+Title                   : ColdWire (Release Candidate 1)
+Filename                : coldwire_rc1.wad
+Release date            : 2025-01-12
+Author                  : Santtu "MFG38" Pesonen
+Email Address           : mfg38thelps@aol.com
+Other Files By Author   : Prayers of Armageddon, 3x3, 3x3: Take Two,
+                          Literalism and sooooooooo many others.
+
+Description             : A UAC material shipment has gone haywire. Something
+                          alien and deadly snuck into a shipping container
+                          and caused the most brutal traffic accident mankind
+                          has ever seen. Civilian casualties range in the
+                          thousands. You, a private detective, read about it
+                          in the news and decide to go see what the fuss is
+                          about. As you arrive at the scene of the "crime",
+                          you can't help but think that despite the corpses
+                          everywhere - some clearly inhuman - the atmosphere
+                          is oddly serene...
+
+                          ColdWire is a limit-removing mapset that aims to combine
+                          modern visuals with classically inspired gameplay. Boasting
+                          a bespoke custom palette and a tailor-made texture set,
+                          the maps in ColdWire aim to create a strong and inviting
+                          atmosphere while keeping the player on their toes with
+                          IWAD-esque but nonetheless thrilling combat. The player
+                          is going to traverse through roughly an episode's worth of
+                          techbases and urban environments in search for answers to
+                          a traffic accident of historical magnitude.
+
+                          Three guest maps are provided by Salmon and Death Bear.
+                          ColdWire also features a full original soundtrack composed
+                          entirely by MFG38 himself.
+
+Additional Credits to   : Guest mappers:
+                          Salmon (MAP04 + MAP11)
+                          Death Bear (MAP05)
+
+                          Playtesters:
+                          DCraven_0ne
+                          InfernalMonsoon
+                          kvothesixstring
+
+                          See cwcred.txt for full credits.
+===========================================================================
+* What is included *
+
+New levels              : 13
+Sounds                  : Yes
+Music                   : Yes
+Graphics                : Yes
+Dehacked/BEX Patch      : Yes
+Demos                   : No
+Other                   : PLAYPAL/COLORMAP, [E/U/Z]MAPINFO, DECORATE
+Other files required    : None
+
+
+* Play Information *
+
+Game                    : Doom 2
+Map #                   : MAP01-13
+Single Player           : Designed for
+Cooperative 2-4 Player  : Player starts only
+Deathmatch 2-4 Player   : No
+Other game styles       : None
+Difficulty Settings     : Yes
+
+
+* Construction *
+
+Base                    : New from scratch
+Build Time              : About 2 years on and off
+Editor(s) used          : Ultimate Doom Builder, SLADE3, WhackEd, ENDEDIT, DoomMake
+Known Bugs              : * Possibility of an all-ghosts effect occurring on MAP04.
+                          * The arachnotron that teleports into the "hub" area in MAP10
+                            has a minor chance to get stuck on an undetermined
+                            obstruction.
+                          * One texture (AQSUPP02) doesn't render properly in software.
+                          * Occasional slime trails and other visual glitches.
+May Not Run With        : vanilla/Chocolate Doom, pre-2.6 versions of PrBoom+
+Tested With             : Crispy Doom 7.0.0, dsda-doom 0.27.5 (cl2), Eternity 4.02.00,
+                          GZDoom 4.14.0, Woof 15.0.1, ZDoom 2.8.1
+
+
+* Map list *
+
+All maps by MFG38 except where noted otherwise.
+
+** EPISODE 1: BASE OF SUSPICION **
+MAP01: "Scene of the Crime"
+MAP02: "Gutwrench Forestry"
+MAP03: "Blood and Charcoal"
+MAP04: "Solarium" by Salmon
+MAP05: "Twilight Reservoir" by Death Bear
+MAP06: "O To Be Squashed"
+
+** EPISODE 2: GHOST TOWNS **
+MAP07: "Firelit Club Night"
+MAP08: "Pink-Eyed and Acidized"
+MAP09: "Sunken Metropolis"
+MAP10: "Death Rode In on Rails"
+MAP11: "Verdant Gutter" by Salmon
+MAP12: "Nyctophoboreactor"
+
+MAP13: "The Spoils" (credits map)
+
+
+* Music list *
+
+All music by MFG38
+
+Title screen: "Electric Crystal Boner"
+Intermission: "Flutes of Death Ring Behind Your Door"
+Text screen: "Creeping Cold"
+
+MAP01: "Autumn Rain"
+MAP02: "Trek Into the Concrete Jungle"
+MAP03: "Ghosts of the Bloodstone"
+MAP04: "Telefragging Scam"
+MAP05: "Jellyfish Society"
+MAP06: "Black Ice"
+MAP07: "Nuclear Winter Summoning Circuit"
+MAP08: "Techno City Blues"
+MAP09: "Love Is Sharing a Deep-Fried Mars Bar"
+MAP10: "Rusty Oxide"
+MAP11: "Harmony Killed the Shooting Star"
+MAP12: "Radiopsychosis"
+MAP13: "Autumn Rain (Reprise)"
+
+
+* Copyright / Permissions *
+
+This work is licensed under the Creative Commons Attribution-NonCommercial-
+ShareAlike 4.0 International License. To view a copy of this license, visit
+https://creativecommons.org/licenses/by-nc-sa/4.0/
+
+You are free to copy and redistribute the material in any medium or format;
+and remix, transform, and build upon the material for any purpose, EXCEPT
+commercially. If you do so, you must give appropriate credit, provide a link
+to the license, and indicate if changes were made. You may do so in any
+reasonable manner, but not in any way that suggests the licensor endorses you
+or your use. You may NOT use the material for commercial purposes. If you 
+remix, transform, or build upon the material, you MUST distribute your 
+contributions under the same license as the original.
+
+
+* Where to get the file that this text file describes *
+
+Web sites: https://mfg38.github.io/
