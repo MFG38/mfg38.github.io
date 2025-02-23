@@ -3,9 +3,9 @@ Archive Maintainer      : Please put in levels/doom2/Ports/
 Advanced engine needed  : Limit-removing
 Primary purpose         : Single play / Co-op
 ===========================================================================
-Title                   : ColdWire (Release Candidate 1)
-Filename                : coldwire_rc1.wad
-Release date            : 2025-01-12
+Title                   : ColdWire (Release Candidate 2)
+Filename                : coldwire_rc2.wad
+Release date            : 2025-02-23
 Author                  : Santtu "MFG38" Pesonen
 Email Address           : mfg38thelps@aol.com
 Other Files By Author   : Prayers of Armageddon, 3x3, 3x3: Take Two,
