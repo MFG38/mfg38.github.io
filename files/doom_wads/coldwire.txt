@@ -3,9 +3,9 @@ Archive Maintainer      : Please put in levels/doom2/Ports/
 Advanced engine needed  : Limit-removing
 Primary purpose         : Single play / Co-op
 ===========================================================================
-Title                   : ColdWire (Release Candidate 2)
-Filename                : coldwire_rc2.wad
-Release date            : 2025-02-23
+Title                   : ColdWire
+Filename                : coldwire.wad, cwwidegfx.wad
+Release date            : 2025-05-19
 Author                  : Santtu "MFG38" Pesonen
 Email Address           : mfg38thelps@aol.com
 Other Files By Author   : Prayers of Armageddon, 3x3, 3x3: Take Two,
@@ -35,6 +35,9 @@ Description             : A UAC material shipment has gone haywire. Something
                           Three guest maps are provided by Salmon and Death Bear.
                           ColdWire also features a full original soundtrack composed
                           entirely by MFG38 himself.
+
+                          cwwidegfx.wad contains widescreen versions of some of the
+                          graphics.
 
 Additional Credits to   : Guest mappers:
                           Salmon (MAP04 + MAP11)
@@ -80,7 +83,6 @@ Known Bugs              : * Possibility of an all-ghosts effect occurring on MAP
                             has a minor chance to get stuck on an undetermined
                             obstruction.
                           * One texture (AQSUPP02) doesn't render properly in software.
-                          * Occasional slime trails and other visual glitches.
 May Not Run With        : vanilla/Chocolate Doom, pre-2.6 versions of PrBoom+
 Tested With             : Crispy Doom 7.0.0, dsda-doom 0.27.5 (cl2), Eternity 4.02.00,
                           GZDoom 4.14.0, Woof 15.0.1, ZDoom 2.8.1
@@ -150,4 +152,5 @@ contributions under the same license as the original.
 
 * Where to get the file that this text file describes *
 
+The Usual: ftp://archives.gamers.org/pub/idgames/ and mirrors
 Web sites: https://mfg38.github.io/
