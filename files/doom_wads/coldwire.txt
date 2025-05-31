@@ -57,7 +57,7 @@ Sounds                  : Yes
 Music                   : Yes
 Graphics                : Yes
 Dehacked/BEX Patch      : Yes
-Demos                   : No
+Demos                   : Yes
 Other                   : PLAYPAL/COLORMAP, [E/U/Z]MAPINFO, DECORATE
 Other files required    : None
 
