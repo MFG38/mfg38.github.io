@@ -52,20 +52,21 @@
 			In vanilla Doom, cyberdemons normally call <b>A_BossDeath</b> in their death state. A_BossDeath is a codepointer that triggers the level
 			exit in E2M8 and the opening of a door in E4M6 when the big baddie is killed. In ColdWire, however, I modified the cyberdemons to call
 			<b>A_KeenDie</b> upon dying instead so that doors might be tied to their death triggers if desired. And the final area of MAP12 does indeed
-			have a door that's tied to the A_KeenDie call. The nice thing about A_KeenDie is that it isn't hardcoded to a specific map slot - while Doom 2
-			only utilizes it in MAP32, it does in fact work in any map slot that has at least one Commander Keen and a door with the sector tag 666.<br>
+			have a door that's tied to the A_KeenDie call. The nice thing about A_KeenDie is that it isn't hardcoded to a specific map slot - while the Doom 2
+			IWAD only utilizes it in MAP32, it does in fact work in any map slot that has at least one Commander Keen and a door with the sector tag 666.<br>
 			<br>
-			In the DeHackEd code, the relevant frames in the state table are frames 699 and 700. This is what the code looks like in BEX format:<br><br>
+			I also decided to remove the call to A_BossDeath from the cyberdemon's death state, as it serves no real purpose in Doom 2. In the
+			DeHackEd code, the relevant frames in the state table are frames 699 and 700. This is what the code looks like in BEX format:<br><br>
 
 			<img src="../images/tutorials/cw-map12-nomo-mechanism/slade02.png" class="centeredImage">
-			<br><br>
+			<br>
 
 			Now, because the Commander Keen is also a monster and calls A_KeenDie in its own death state, it also needed to be modified to make it
 			actually spawn in -nomonsters for the mechanism to work. This turned out to be as simple as removing its COUNTKILL flag, and with that
 			small change, the DeHackEd code for Commander Keen now looks like this:<br><br>
 
 			<img src="../images/tutorials/cw-map12-nomo-mechanism/slade01.png" class="centeredImage">
-			<br><br>
+			<br>
 
 			With the DeHackEd side covered, what does the mechanism look like in the map itself? Well, that's what I'll be explaining in the next
 			"chapter".
@@ -81,7 +82,7 @@
 			I'll also be including editor screenshots of the mechanism for reference. Let's start with a regular in-editor view:<br><br>
 
 			<img src="../images/tutorials/cw-map12-nomo-mechanism/udb01.jpg" class="centeredImage" width="960" height="520">
-			<br><br>
+			<br>
 
 			The mechanism is contained in a series of sectors out of the regular bounds of the map. To the left, you'll see Commander Keen
 			chilling in his own compartment, surrounded by a few explosive barrels, and to the right is a lost soul on a pedestal of sorts,
@@ -95,7 +96,7 @@
 			crusher with <b>line special 25</b> (start crusher with slow damage) when the player crosses it.<br><br>
 
 			<img src="../images/tutorials/cw-map12-nomo-mechanism/udb02.jpg" class="centeredImage" width="960" height="520">
-			<br><br>
+			<br>
 
 			The reason we want slow damage for the crusher is so that it'll slow down when it reaches the lost soul and allow our Keen to
 			survive, keeping our 666-tagged door in the final area closed until the player kills the cyberdemons. This way, when the crusher
