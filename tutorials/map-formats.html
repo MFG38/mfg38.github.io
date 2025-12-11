@@ -51,10 +51,10 @@
         <p class="mainText">
             <strong>Doom format</strong>, also known as <strong>vanilla format</strong>, is the standard, non-extended map format
             that's used by the IWAD maps. Maps that aim for vanilla compatibility (i.e. compatibility with Chocolate Doom or the
-            original DOS EXE) are generally made in this format. Limit-removing maps also generally fall under this format.<br>
+            original DOS EXE) are made in this format. Limit-removing maps are also generally made in it.<br>
             <br>
             Doom format is largely the only map format where the <b>static limits</b> of the Doom engine truly matter, in particular if
-            vanilla compatibility is desired. Since it's essentially a non-extended map format, taking the static limits into account
+            vanilla compatibility is desired. Since the Doom map format isn't extended, taking the static limits into account
             and staying within them is important when making vanilla-compatible maps. The static limits <i>can</i>, however, also be
             safely ignored if vanilla compatibility isn't needed - in this case, the map will become <strong>limit-removing</strong>.
             Naturally, a limit-removing map won't run in a strictly vanilla-compatible source port. Or maybe it will, until you run
@@ -65,7 +65,7 @@
             not in a source port that doesn't also support those formats. If Chocolate Doom detects a line action or sector special
             that's clearly an extended-format one in a map, it can even result in a crash. Or if it doesn't, that line action or sector
             special just won't work as intended unless you run the map in a source port that supports it. For limit-removing maps, though,
-            Crispy Doom supports MBF sky transfers - see my <a href="mbf-sky-transfer.html">sky transfer tutorial</a> on how to use them.
+            Crispy Doom supports MBF sky transfers - see my <a href="./mbf-sky-transfer.html">sky transfer tutorial</a> on how to use them.
             In strict vanilla, MBF sky transfers are not supported.<br>
             <br>
             Difficulty-wise, thing placement in Doom format is controlled by three flags: "Easy" for things that should appear on ITYTD and
@@ -90,7 +90,7 @@
             <strong>Boom format</strong> is arguably the oldest and most widely used extended map format, introduced by the Boom source port
             family, hence its name. It introduced a bunch of new mapping features that have become widely utilized by mappers of all skill levels,
             such as generalized line actions, translucency and scrolling floors, the latest of which is famously utilized in <b>voodoo doll
-            scripting</b>.<br>
+            "scripting"</b>.<br>
             <br>
             Perhaps the most revolutionary feature added by Boom format, <b>generalized line actions</b>, essentially lets you define line actions not
             available in vanilla Doom or in the predefined new line actions added by Boom. By using a generalized line action, you can achieve more
@@ -113,7 +113,7 @@
             obvious caveat is that you won't be able to play a Boom-format map in a more vanilla-strict source port like Chocolate Doom.<br>
             <br>
             <b>When to map in Boom format?</b> After you've made a few Doom-format maps.<br>
-            <b>Which port to test in?</b> PrBoom+, dsda-doom<br>
+            <b>Which port to test in?</b> dsda-doom, Woof<br>
             <br><br>
         </p>
 
@@ -131,13 +131,13 @@
             monsters. Other features brought by the Hexen format include class-specific thing placement, "dormancy" for things and polyobjects.<br>
             <br>
             Hexen format is one of the less supported map formats, with ZDoom and its derivatives being among the only source ports to have implemented full cross-game
-            support for it. However, ACS is at least partially supported by Eternity Engine. Yet, in its early days, Hexen format ended up being widely used for wads
+            support for it. However, ACS is at least partially supported in Eternity Engine. Yet, in its early days, Hexen format ended up being widely used for wads
             that targeted the ZDoom source port family specifically. That said, Hexen format is little more than a technical curiosity at this point - with the
             advent of UDMF, which supports all features of the Hexen format and a bunch more, it makes more sense to use that over Hexen format unless you're making
             a map for vanilla Hexen.<br>
             <br>
             <b>When to map in Hexen format?</b> If you're curious about it. UDMF is more advanced and thusly the better option, though.<br>
-            <b>Which port to test in?</b> (G)ZDoom<br>
+            <b>Which port to test in?</b> (G/U)ZDoom<br>
             <br><br>
         </p>
 
@@ -149,7 +149,8 @@
             without ACS, independent texture scaling and rotation and a bunch of other things that'd make this single paragraph way too long if I listed them all off.<br>
             <br>
             The fundamental difference between UDMF and other map formats is that UDMF stores all map data into a single lump called TEXTMAP, whereas other formats store
-            different map data, such as sector, thing and linedef data, into their own lumps. Nodes and compiled ACS code, however, are still stored into their own lumps.<br>
+            different map data, such as sector, thing and linedef data, into their own binary data lumps. Nodes and compiled ACS code, however, are still stored into
+            their own lumps.<br>
             <br>
             Support for the UDMF format is chiefly limited to the most advanced source ports, namely the ZDoom family and Eternity Engine. Due to the different design
             philosophies between the two, a UDMF map made for GZDoom will most likely not work in Eternity and vice versa. This is because UDMF implements namespaces to
@@ -159,7 +160,7 @@
             idea to start with one of the less advanced formats and only give UDMF a spin when you're comfortable in your map editor of choice.<br>
             <br>
             <b>When to map in UDMF format?</b> When you know your way around the editor and want to make something advanced.<br>
-            <b>Which port to test in?</b> GZDoom / Eternity (depending on target port)<br>
+            <b>Which port to test in?</b> [G/U]ZDoom / dsda-doom / Eternity (depending on target source port)<br>
             <br><br>
             That concludes this map format guide.
         </p>
