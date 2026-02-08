@@ -12,6 +12,11 @@ p, ul
 	margin: auto;
 }
 
+p.lessWide
+{
+    width: 50% !important;
+}
+
 noscript
 {
 	color: #e2e0ef;
