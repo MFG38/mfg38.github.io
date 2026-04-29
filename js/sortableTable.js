@@ -8,75 +8,59 @@ function getTrackLength(n) {
 }
 
 function SortTable(table_id, n) {
-    var table, rows, switching, i, x, y, shouldSwitch, dir, switchcount = 0;
+    const table = document.getElementById(table_id);
+    
+    let prevCol = Number(table.getAttribute("data-sort-col"));
+    let prevDir = table.getAttribute("data-sort-dir") || "asc";
+    let dir;
 
-    table = document.getElementById(table_id);
-    switching = true;
-    dir = "asc";
+    if(prevCol === n) {
+        dir = (prevDir === "asc") ? "desc" : "asc";
+    } else {
+        dir = "asc";
+    }
+
+    table.setAttribute("data-sort-col", n);
+    table.setAttribute("data-sort-dir", dir);
+
+    let switching = true;
+    let switchcount = 0;
 
     while(switching) {
         switching = false;
-        rows = table.rows;
+        const rows = table.rows;
 
-        for(i = 1; i <= (rows.length - 1); i++) {
-            shouldSwitch = false;
-            x = rows[i].getElementsByTagName("td")[n];
-            y = rows[i+1].getElementsByTagName("td")[n];
+        for(let i = 1; i < rows.length - 1; i++) {
+            let shouldSwitch = false;
+            let x = rows[i].getElementsByTagName("td")[n];
+            let y = rows[i+1].getElementsByTagName("td")[n];
 
             if((table_id === "ostMidis" || table_id === "remixes" || table_id === "otherMidis") && n === 2) {
                 let xLen = Number(getTrackLength(x.innerHTML))
                 let yLen = Number(getTrackLength(y.innerHTML))
 
-                if(dir == "asc") {
-                    if(xLen > yLen) {
-                        shouldSwitch = true;
-                        break;
-                    }
-                }
-                else if(dir == "desc") {
-                    if(xLen < yLen) {
-                        shouldSwitch = true;
-                        break;
-                    }
-                }
-            } else if((table_id === "personalWads" || table_id === "communityWads") && n === 3) {
-                if(dir == "asc") {
-                    if(Number(x.innerHTML) > Number(y.innerHTML)) {
-                        shouldSwitch = true;
-                        break;
-                    }
-                }
-                else if(dir == "desc") {
-                    if(Number(x.innerHTML) < Number(y.innerHTML)) {
-                        shouldSwitch = true;
-                        break;
-                    }
-                }
-            } else {
-                if(dir == "asc") {
-                    if(x.innerText.toLowerCase() > y.innerText.toLowerCase()) {
-                        shouldSwitch = true;
-                        break;
-                    }
-                }
-                else if(dir == "desc") {
-                    if(x.innerText.toLowerCase() < y.innerText.toLowerCase()) {
-                        shouldSwitch = true;
-                        break;
-                    }
-                }
-            }
-        }
+                if(dir === "asc" && xLen > yLen) shouldSwitch = true;
+                if(dir === "desc" && xLen < yLen) shouldSwitch = true;
 
-        if(shouldSwitch) {
-            rows[i].parentNode.insertBefore(rows[i+1], rows[i]);
-            switching = true;
-            switchcount++;
-        }
-        else {
-            if(switchcount == 0 && dir == "asc") {
-                dir = "desc";
+            } else if((table_id === "personalWads" || table_id === "communityWads") && n === 3) {
+                let xVal = Number(x.innerHTML);
+                let yVal = Number(y.innerHTML);
+
+                if(dir === "asc" && xVal > yVal) shouldSwitch = true;
+                if(dir === "desc" && xVal < yVal) shouldSwitch = true;
+
+            } else {
+                let xText = x.innerText.toLowerCase();
+                let yText = y.innerText.toLowerCase();
+
+                if(dir === "asc" && xText > yText) shouldSwitch = true;
+                if(dir === "desc" && xText < yText) shouldSwitch = true;
+            }
+
+            if(shouldSwitch) {
+                rows[i].parentNode.insertBefore(rows[i+1], rows[i]);
                 switching = true;
+                switchcount++;
             }
         }
     }
