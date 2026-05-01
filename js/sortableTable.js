@@ -42,7 +42,7 @@ function SortTable(table_id, n) {
                 if(dir === "asc" && xLen > yLen) shouldSwitch = true;
                 if(dir === "desc" && xLen < yLen) shouldSwitch = true;
 
-            } else if((table_id === "personalWads" || table_id === "communityWads") && n === 3) {
+            } else if((table_id === "personalWads" || table_id === "communityWads") && n === 4) {
                 let xVal = Number(x.innerHTML);
                 let yVal = Number(y.innerHTML);
 

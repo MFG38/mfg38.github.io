@@ -156,9 +156,9 @@ th.colTitle
 	width: 60%;
 }
 
-th.colIwad, th.colMaps
+th.colIwad, th.colPort
 {
-	width: 16%;
+	width: 12%;
 }
 
 th.colGenre
@@ -176,7 +176,7 @@ th.colMIDIDesc
 	width: 42%;
 }
 
-th.colMIDILength
+th.colMIDILength, th.colMaps
 {
 	width: 8%;
 }
