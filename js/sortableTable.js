@@ -36,8 +36,8 @@ function SortTable(table_id, n) {
             let y = rows[i+1].getElementsByTagName("td")[n];
 
             if((table_id === "ostMidis" || table_id === "remixes" || table_id === "otherMidis") && n === 2) {
-                let xLen = Number(getTrackLength(x.innerHTML))
-                let yLen = Number(getTrackLength(y.innerHTML))
+                let xLen = Number(getTrackLength(x.innerHTML));
+                let yLen = Number(getTrackLength(y.innerHTML));
 
                 if(dir === "asc" && xLen > yLen) shouldSwitch = true;
                 if(dir === "desc" && xLen < yLen) shouldSwitch = true;
