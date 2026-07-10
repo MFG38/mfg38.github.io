@@ -5,6 +5,7 @@ function EmbedNavbar () {
 		'	<a href="../doom_wad_index.html">Doom WADs</a>' +
 		'	<a href="../game_index.html">Games</a>' +
 		'	<a href="../midi_index.html">MIDIs</a>' +
+        '   <a href="../writing_index.html">Writing</a>' +
 		'	<a href="../tutorial_index.html">Tutorials</a>' +
 		'	<a href="../hardware.html">The hardware</a>' +
 		'</nav>';

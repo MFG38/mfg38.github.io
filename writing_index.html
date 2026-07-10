@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title>Index of written works - MFG38's Fun Hub</title>
+		<meta charset="UTF-8">
+		<meta name="author" content="Santtu Pesonen">
+		<meta name="keywords" content="Writing, Fiction, Assorted Ramblings">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="./css/style.css">
+		<script src="./js/embedScripts.js"></script>
+		<script src="./js/sortableTable.js"></script>
+	</head>
+	
+	<body>
+		<div id="navbarPlaceholder">
+			<script>
+				document.addEventListener("DOMContentLoaded", function() {
+					EmbedNavbar();
+				});
+			</script>
+			<noscript>There should be a navbar here... Please enable scripts in your adblocker or whatever.</noscript>
+		</div>
+		
+		<h2>Index of written works</h2>
+		
+		<p class="mainText">
+			Click on the table headers to sort the table.<br><br>
+		</p>
+
+		<table class="indexedList" id="writing">
+			<tbody>
+				<tr>
+					<th class="colYear" onclick="SortTable('writing', 0)">Year</th>
+					<th class="colBookTitle" onclick="SortTable('writing', 1)">Title</th>
+                    <th class="colBookDesc" onclick="SortTable('writing', 2)">Description</th>
+                    <th class="colFiles">Download</th>
+				</tr>
+				
+				<tr>
+					<td>2018</td>
+					<td>Assorted Ramblings of a Different Young Adult</td>
+                    <td>A non-fictional collection of reflective mini-essays</td>
+                    <td>
+                        <a href="./files/writing/assortedramblings_epub_formatted.epub" download>EPUB</a> |
+                        <a href="./files/writing/assortedramblings_pdf.pdf" download>PDF</a>
+                    </td>
+				</tr>
+				
+                <tr>
+                    <td>2026</td>
+                    <td>The Harashima Prologues</td>
+                    <td>Five interconnected short stories about two murders</td>
+                    <td>
+                        <a href="./files/writing/TheHarashimaPrologues.epub" download>EPUB</a> |
+                        <a href="./files/writing/TheHarashimaPrologues.pdf" download>PDF</a>
+                    </td>
+                </tr>
+		</table>
+		
+		<div id="footerPlaceholder">
+			<script>
+				document.addEventListener("DOMContentLoaded", function() {
+					EmbedFooter();
+				});
+			</script>
+			<noscript>There should be a footer here... Please enable scripts in your adblocker or whatever.</noscript>
+		</div>
+	</body>
+</html>
