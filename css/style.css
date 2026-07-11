@@ -166,14 +166,19 @@ th.colGenre
 	width: 32%;
 }
 
-th.colMIDIName
+th.colMIDIName, th.colBookDesc
 {
 	width: 50%;
 }
 
-th.colMIDIDesc, th.colBookTitle, th.colBookDesc
+th.colMIDIDesc
 {
 	width: 42%;
+}
+
+th.colBookTitle
+{
+    width: 34%;
 }
 
 th.colMIDILength, th.colMaps
