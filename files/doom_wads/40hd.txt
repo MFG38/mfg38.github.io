@@ -1,0 +1,60 @@
+===========================================================================
+Advanced engine needed  : GZDoom / UZDoom
+Primary purpose         : Single play
+===========================================================================
+Title                   : Forty-Headed Dragon
+Filename                : 40hd.pk3
+Author                  : MFG38 and co.
+
+Description             : A collaborative megamap by five Piece of Pie
+                          Software community members, made to celebrate our
+                          sexy dragon overlord Drakiah's 40th birthday. 'Nuff
+                          said.
+
+Additional Credits to   : See 40hdcred.txt for full credits.
+===========================================================================
+* What is included *
+
+New levels              : 1
+Sounds                  : Yes
+Music                   : Yes
+Graphics                : Yes
+Dehacked/BEX Patch      : No
+Demos                   : No
+Other                   : ZMAPINFO, ZScript, SNDINFO etc.
+Other files required    : None
+
+
+* Play Information *
+
+Game                    : Doom 2
+Map #                   : MAP01
+Single Player           : Designed for
+Cooperative 2-4 Player  : No
+Deathmatch 2-4 Player   : No
+Other game styles       : None
+Difficulty Settings     : Not implemented
+
+
+* Construction *
+
+Base                    : New from scratch
+Build Time              : About three months (at least in theory)
+Editor(s) used          : Ultimate Doom Builder, SLADE3 etc.
+May Not Run With        : Anything that isn't GZDoom or a derivative
+Tested With             : UZDoom 4.14.3
+
+
+* Copyright / Permissions *
+
+This work is licensed under the Creative Commons
+Attribution-NonCommercial-NoDerivatives 4.0 International License. To view a
+copy of this license, visit http://creativecommons.org/licenses/by-nc-nd/4.0/
+
+You are free to copy and redistribute the material in any medium or format.
+If you do so, you must give appropriate credit, provide a link to the
+license, and indicate if changes were made. You may do so in any reasonable
+manner, but not in any way that suggests the licensor endorses you or your
+use. You may not use the material for commercial purposes. If you remix,
+transform, or build upon the material, you may not distribute the modified
+material.
